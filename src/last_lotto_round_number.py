@@ -30,7 +30,7 @@ if __name__ == "__main__":
     print(f"{latest_round_no}")
 
     # 파일 저장 디렉토리 설정
-    save_dir = './constant/round_no'
+    save_dir = 'src/constant/round_no'
     os.makedirs(save_dir, exist_ok=True)  # 폴더 없으면 생성
 
     file_path = os.path.join(save_dir, f'latest_round_no.json')

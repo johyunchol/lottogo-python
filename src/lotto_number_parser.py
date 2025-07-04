@@ -133,7 +133,7 @@ def parse_single_lotto_draw_to_json(drw_no):
         print(f"오류: 파싱 중 예외 발생 - {e}")
 
     # 파일 저장 디렉토리 설정
-    save_dir = './constant/draw_no'
+    save_dir = 'src/constant/draw_no'
     os.makedirs(save_dir, exist_ok=True)  # 폴더 없으면 생성
 
     file_path = os.path.join(save_dir, f'{drw_no}.json')
