@@ -36,10 +36,10 @@ jobs:
         run: ls -al constant/draw_no || true
         # 5. 디버깅: 실제로 파일이 생성됐는지 확인
 
-      - name: Check if lastest_round_no.json exists
+      - name: Check if latest_round_no.json exists
         run: |
-          if [ ! -f "constant/draw_no/lastest_round_no.json" ]; then
-            echo "ERROR: lastest_round_no.json not found!"
+          if [ ! -f "constant/draw_no/latest_round_no.json" ]; then
+            echo "ERROR: latest_round_no.json not found!"
             exit 1
           fi
         # 6. 필수 파일이 없으면 워크플로우 중단
@@ -47,7 +47,7 @@ jobs:
       - name: Get latest round number from JSON
         id: get_round
         run: |
-          LATEST_ROUND=$(jq '.latest_round_no' constant/draw_no/lastest_round_no.json)
+          LATEST_ROUND=$(jq '.latest_round_no' constant/draw_no/latest_round_no.json)
           echo "LATEST_ROUND=$LATEST_ROUND" >> $GITHUB_ENV
           echo "Latest round number: $LATEST_ROUND"
         # 7. jq로 JSON에서 최신 회차 번호 추출, 환경변수로 저장
