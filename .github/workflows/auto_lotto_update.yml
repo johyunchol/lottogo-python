@@ -1,0 +1,66 @@
+name: Auto Lotto Draw Update
+
+on:
+  schedule:
+    - cron: '*/5 * * * *'   # 5분마다 실행 (UTC 기준)
+  push:
+    branches: [main]         # main 브랜치에 push될 때 워크플로우 실행
+  workflow_dispatch:         # 수동 실행도 가능
+
+jobs:
+  update-lotto-draw:
+    runs-on: ubuntu-latest   # Ubuntu 최신 환경에서 실행
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        # 1. 저장소 코드를 체크아웃(가져오기)
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+        # 2. Python 3.11 환경 세팅
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+        # 3. 필요한 파이썬 패키지 설치 (requirements.txt 기준)
+
+      - name: Run last_lotto_round_number.py
+        run: python src/last_lotto_round_number.py
+        # 4. 최신 로또 회차 번호를 추출하여 JSON 파일로 저장
+
+      - name: Get latest round number from JSON
+        id: get_round
+        run: |
+          # 5. jq로 JSON에서 최신 회차 번호 추출, 환경변수로 저장
+          LATEST_ROUND=$(jq '.latest_round_no' constant/draw_no/lastest_round_no.json)
+          echo "LATEST_ROUND=$LATEST_ROUND" >> $GITHUB_ENV
+
+      - name: Check if draw JSON exists
+        id: check_draw
+        run: |
+          # 6. 해당 회차의 JSON 파일이 이미 존재하는지 확인
+          if [ -f "constant/draw_no/${{ env.LATEST_ROUND }}.json" ]; then
+            echo "exists=true" >> $GITHUB_OUTPUT
+          else
+            echo "exists=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Generate draw JSON if missing
+        if: steps.check_draw.outputs.exists == 'false'
+        run: |
+          # 7. 파일이 없으면 파싱 스크립트 실행하여 JSON 생성
+          python src/lotto_number_parser.py ${{ env.LATEST_ROUND }}
+
+      - name: Git add, commit, and push (if new file)
+        if: steps.check_draw.outputs.exists == 'false'
+        run: |
+          # 8. 새 파일이 생겼을 때만 git add/commit/push
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add constant/draw_no/${{ env.LATEST_ROUND }}.json
+          git commit -m "Add lotto draw ${{ env.LATEST_ROUND }}.json (auto-update)"
+          git push
