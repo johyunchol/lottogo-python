@@ -39,12 +39,12 @@ jobs:
       # 5. 실제로 파일이 생성됐는지 확인 (디버깅용)
       - name: List draw_no directory after round number script
         run: |
-          ls -al constant/draw_no || true
+          ls -al src/constant/draw_no || true
 
       # 6. 필수 파일이 없으면 워크플로우 중단
       - name: Check if latest_round_no.json exists
         run: |
-          if [ ! -f "constant/round_no/latest_round_no.json" ]; then
+          if [ ! -f "src/constant/round_no/latest_round_no.json" ]; then
             echo "ERROR: latest_round_no.json not found!"
             exit 1
           fi
@@ -53,7 +53,7 @@ jobs:
       - name: Get latest round number from JSON
         id: get_round
         run: |
-          LATEST_ROUND=$(jq '.latest_round_no' constant/round_no/latest_round_no.json)
+          LATEST_ROUND=$(jq '.latest_round_no' src/constant/round_no/latest_round_no.json)
           echo "LATEST_ROUND=$LATEST_ROUND" >> $GITHUB_ENV
           echo "Latest round number: $LATEST_ROUND"
 
@@ -61,7 +61,7 @@ jobs:
       - name: Check if draw JSON exists
         id: check_draw
         run: |
-          if [ -f "constant/draw_no/${{ env.LATEST_ROUND }}.json" ]; then
+          if [ -f "src/constant/draw_no/${{ env.LATEST_ROUND }}.json" ]; then
             echo "exists=true" >> $GITHUB_OUTPUT
           else
             echo "exists=false" >> $GITHUB_OUTPUT
@@ -79,6 +79,6 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add constant/draw_no/${{ env.LATEST_ROUND }}.json
+          git add .
           git commit -m "Add lotto draw ${{ env.LATEST_ROUND }}.json (auto-update)"
           git push
