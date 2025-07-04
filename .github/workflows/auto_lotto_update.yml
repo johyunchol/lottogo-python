@@ -12,46 +12,49 @@ jobs:
     runs-on: ubuntu-latest   # Ubuntu 최신 환경에서 실행
 
     steps:
+      # 1. 저장소 코드를 체크아웃(가져오기)
       - name: Checkout repository
         uses: actions/checkout@v4
-        # 1. 저장소 코드를 체크아웃(가져오기)
 
+      # 2. Python 3.11 환경 세팅
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-        # 2. Python 3.11 환경 세팅
 
+      # 3. requirements.txt가 있으면 설치, 없으면 무시
       - name: Install dependencies (ignore if requirements.txt is missing)
         run: |
           python -m pip install --upgrade pip
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-        # 3. requirements.txt가 있으면 설치, 없으면 무시
 
+      # 4. 최신 로또 회차 번호를 추출하여 JSON 파일로 저장
       - name: Run last_lotto_round_number.py
-        run: python src/last_lotto_round_number.py
-        # 4. 최신 로또 회차 번호를 추출하여 JSON 파일로 저장
+        run: |
+          python src/last_lotto_round_number.py
 
+      # 5. 실제로 파일이 생성됐는지 확인 (디버깅용)
       - name: List draw_no directory after round number script
-        run: ls -al constant/draw_no || true
-        # 5. 디버깅: 실제로 파일이 생성됐는지 확인
+        run: |
+          ls -al constant/draw_no || true
 
+      # 6. 필수 파일이 없으면 워크플로우 중단
       - name: Check if latest_round_no.json exists
         run: |
-          if [ ! -f "constant/draw_no/latest_round_no.json" ]; then
+          if [ ! -f "constant/round_no/latest_round_no.json" ]; then
             echo "ERROR: latest_round_no.json not found!"
             exit 1
           fi
-        # 6. 필수 파일이 없으면 워크플로우 중단
 
+      # 7. jq로 JSON에서 최신 회차 번호 추출, 환경변수로 저장
       - name: Get latest round number from JSON
         id: get_round
         run: |
-          LATEST_ROUND=$(jq '.latest_round_no' constant/draw_no/latest_round_no.json)
+          LATEST_ROUND=$(jq '.latest_round_no' constant/round_no/latest_round_no.json)
           echo "LATEST_ROUND=$LATEST_ROUND" >> $GITHUB_ENV
           echo "Latest round number: $LATEST_ROUND"
-        # 7. jq로 JSON에서 최신 회차 번호 추출, 환경변수로 저장
 
+      # 8. 해당 회차의 JSON 파일이 이미 존재하는지 확인
       - name: Check if draw JSON exists
         id: check_draw
         run: |
@@ -60,14 +63,14 @@ jobs:
           else
             echo "exists=false" >> $GITHUB_OUTPUT
           fi
-        # 8. 해당 회차의 JSON 파일이 이미 존재하는지 확인
 
+      # 9. 파일이 없으면 파싱 스크립트 실행하여 JSON 생성
       - name: Generate draw JSON if missing
         if: steps.check_draw.outputs.exists == 'false'
         run: |
           python src/lotto_number_parser.py ${{ env.LATEST_ROUND }}
-        # 9. 파일이 없으면 파싱 스크립트 실행하여 JSON 생성
 
+      # 10. 새 파일이 생겼을 때만 git add/commit/push
       - name: Git add, commit, and push (if new file)
         if: steps.check_draw.outputs.exists == 'false'
         run: |
@@ -76,4 +79,3 @@ jobs:
           git add constant/draw_no/${{ env.LATEST_ROUND }}.json
           git commit -m "Add lotto draw ${{ env.LATEST_ROUND }}.json (auto-update)"
           git push
-        # 10. 새 파일이 생겼을 때만 git add/commit/push
