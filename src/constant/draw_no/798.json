@@ -1,0 +1,55 @@
+{
+    "draw_no": 798,
+    "draw_date": "2018-03-17",
+    "winning_numbers": [
+        2,
+        10,
+        14,
+        22,
+        32,
+        36
+    ],
+    "bonus_number": 41,
+    "rank_details": [
+        {
+            "rank": 1,
+            "total_prize_amount": 18975543377,
+            "num_winners": 7,
+            "prize_per_game": 2710791911,
+            "winning_criteria": "당첨번호 6개 숫자일치"
+        },
+        {
+            "rank": 2,
+            "total_prize_amount": 3162590580,
+            "num_winners": 60,
+            "prize_per_game": 52709843,
+            "winning_criteria": "당첨번호 5개 숫자일치+보너스 숫자일치"
+        },
+        {
+            "rank": 3,
+            "total_prize_amount": 3162591396,
+            "num_winners": 2124,
+            "prize_per_game": 1488979,
+            "winning_criteria": "당첨번호 5개 숫자일치"
+        },
+        {
+            "rank": 4,
+            "total_prize_amount": 4949400000,
+            "num_winners": 98988,
+            "prize_per_game": 50000,
+            "winning_criteria": "당첨번호 4개 숫자일치"
+        },
+        {
+            "rank": 5,
+            "total_prize_amount": 8269255000,
+            "num_winners": 1653851,
+            "prize_per_game": 5000,
+            "winning_criteria": "당첨번호 3개 숫자일치"
+        }
+    ],
+    "note": "1등 자동3 수동4",
+    "misc_info": {
+        "payment_deadline": "지급개시일로부터 1년 (휴일인 경우 익영업일)",
+        "total_sales_amount": 77038759000
+    }
+}

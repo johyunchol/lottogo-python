@@ -1,0 +1,55 @@
+{
+    "draw_no": 393,
+    "draw_date": "2010-06-12",
+    "winning_numbers": [
+        9,
+        16,
+        28,
+        40,
+        41,
+        43
+    ],
+    "bonus_number": 21,
+    "rank_details": [
+        {
+            "rank": 1,
+            "total_prize_amount": 10896031800,
+            "num_winners": 8,
+            "prize_per_game": 1362003975,
+            "winning_criteria": "당첨번호 6개 숫자일치"
+        },
+        {
+            "rank": 2,
+            "total_prize_amount": 1816005310,
+            "num_winners": 35,
+            "prize_per_game": 51885866,
+            "winning_criteria": "당첨번호 5개 숫자일치+보너스 숫자일치"
+        },
+        {
+            "rank": 3,
+            "total_prize_amount": 1816005520,
+            "num_winners": 1072,
+            "prize_per_game": 1694035,
+            "winning_criteria": "당첨번호 5개 숫자일치"
+        },
+        {
+            "rank": 4,
+            "total_prize_amount": 3632059165,
+            "num_winners": 55951,
+            "prize_per_game": 64915,
+            "winning_criteria": "당첨번호 4개 숫자일치"
+        },
+        {
+            "rank": 5,
+            "total_prize_amount": 4834505000,
+            "num_winners": 966901,
+            "prize_per_game": 5000,
+            "winning_criteria": "당첨번호 3개 숫자일치"
+        }
+    ],
+    "note": "1등 자동6 수동2",
+    "misc_info": {
+        "payment_deadline": "지급개시일로부터 1년 (휴일인 경우 익영업일)",
+        "total_sales_amount": 45989116000
+    }
+}

@@ -1,0 +1,55 @@
+{
+    "draw_no": 331,
+    "draw_date": "2009-04-04",
+    "winning_numbers": [
+        4,
+        9,
+        14,
+        26,
+        31,
+        44
+    ],
+    "bonus_number": 39,
+    "rank_details": [
+        {
+            "rank": 1,
+            "total_prize_amount": 10829513100,
+            "num_winners": 5,
+            "prize_per_game": 2165902620,
+            "winning_criteria": "당첨번호 6개 숫자일치"
+        },
+        {
+            "rank": 2,
+            "total_prize_amount": 1804918860,
+            "num_winners": 45,
+            "prize_per_game": 40109308,
+            "winning_criteria": "당첨번호 5개 숫자일치+보너스 숫자일치"
+        },
+        {
+            "rank": 3,
+            "total_prize_amount": 1804919025,
+            "num_winners": 1365,
+            "prize_per_game": 1322285,
+            "winning_criteria": "당첨번호 5개 숫자일치"
+        },
+        {
+            "rank": 4,
+            "total_prize_amount": 3609893322,
+            "num_winners": 64617,
+            "prize_per_game": 55866,
+            "winning_criteria": "당첨번호 4개 숫자일치"
+        },
+        {
+            "rank": 5,
+            "total_prize_amount": 5271545000,
+            "num_winners": 1054309,
+            "prize_per_game": 5000,
+            "winning_criteria": "당첨번호 3개 숫자일치"
+        }
+    ],
+    "note": "1등 자동3 수동2",
+    "misc_info": {
+        "payment_deadline": "지급개시일로부터 1년 (휴일인 경우 익영업일)",
+        "total_sales_amount": 46641467000
+    }
+}

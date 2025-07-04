@@ -1,0 +1,55 @@
+{
+    "draw_no": 922,
+    "draw_date": "2020-08-01",
+    "winning_numbers": [
+        2,
+        6,
+        13,
+        17,
+        27,
+        43
+    ],
+    "bonus_number": 36,
+    "rank_details": [
+        {
+            "rank": 1,
+            "total_prize_amount": 20507427000,
+            "num_winners": 6,
+            "prize_per_game": 3417904500,
+            "winning_criteria": "당첨번호 6개 숫자일치"
+        },
+        {
+            "rank": 2,
+            "total_prize_amount": 3417904558,
+            "num_winners": 89,
+            "prize_per_game": 38403422,
+            "winning_criteria": "당첨번호 5개 숫자일치+보너스 숫자일치"
+        },
+        {
+            "rank": 3,
+            "total_prize_amount": 3417904548,
+            "num_winners": 2876,
+            "prize_per_game": 1188423,
+            "winning_criteria": "당첨번호 5개 숫자일치"
+        },
+        {
+            "rank": 4,
+            "total_prize_amount": 6802600000,
+            "num_winners": 136052,
+            "prize_per_game": 50000,
+            "winning_criteria": "당첨번호 4개 숫자일치"
+        },
+        {
+            "rank": 5,
+            "total_prize_amount": 10487505000,
+            "num_winners": 2097501,
+            "prize_per_game": 5000,
+            "winning_criteria": "당첨번호 3개 숫자일치"
+        }
+    ],
+    "note": "1등 자동3 수동3",
+    "misc_info": {
+        "payment_deadline": "지급개시일로부터 1년 (휴일인 경우 익영업일)",
+        "total_sales_amount": 89266682000
+    }
+}

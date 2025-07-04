@@ -1,0 +1,55 @@
+{
+    "draw_no": 635,
+    "draw_date": "2015-01-31",
+    "winning_numbers": [
+        11,
+        13,
+        25,
+        26,
+        29,
+        33
+    ],
+    "bonus_number": 32,
+    "rank_details": [
+        {
+            "rank": 1,
+            "total_prize_amount": 14844697880,
+            "num_winners": 8,
+            "prize_per_game": 1855587235,
+            "winning_criteria": "당첨번호 6개 숫자일치"
+        },
+        {
+            "rank": 2,
+            "total_prize_amount": 2474116330,
+            "num_winners": 35,
+            "prize_per_game": 70689038,
+            "winning_criteria": "당첨번호 5개 숫자일치+보너스 숫자일치"
+        },
+        {
+            "rank": 3,
+            "total_prize_amount": 2474117250,
+            "num_winners": 1650,
+            "prize_per_game": 1499465,
+            "winning_criteria": "당첨번호 5개 숫자일치"
+        },
+        {
+            "rank": 4,
+            "total_prize_amount": 4283750000,
+            "num_winners": 85675,
+            "prize_per_game": 50000,
+            "winning_criteria": "당첨번호 4개 숫자일치"
+        },
+        {
+            "rank": 5,
+            "total_prize_amount": 7138130000,
+            "num_winners": 1427626,
+            "prize_per_game": 5000,
+            "winning_criteria": "당첨번호 3개 숫자일치"
+        }
+    ],
+    "note": "1등 자동7 수동1",
+    "misc_info": {
+        "payment_deadline": "지급개시일로부터 1년 (휴일인 경우 익영업일)",
+        "total_sales_amount": 62429621000
+    }
+}

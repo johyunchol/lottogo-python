@@ -1,0 +1,55 @@
+{
+    "draw_no": 220,
+    "draw_date": "2007-02-17",
+    "winning_numbers": [
+        5,
+        11,
+        19,
+        21,
+        34,
+        43
+    ],
+    "bonus_number": 31,
+    "rank_details": [
+        {
+            "rank": 1,
+            "total_prize_amount": 11748569700,
+            "num_winners": 6,
+            "prize_per_game": 1958094950,
+            "winning_criteria": "당첨번호 6개 숫자일치"
+        },
+        {
+            "rank": 2,
+            "total_prize_amount": 1958094964,
+            "num_winners": 28,
+            "prize_per_game": 69931963,
+            "winning_criteria": "당첨번호 5개 숫자일치+보너스 숫자일치"
+        },
+        {
+            "rank": 3,
+            "total_prize_amount": 1958095845,
+            "num_winners": 1317,
+            "prize_per_game": 1486785,
+            "winning_criteria": "당첨번호 5개 숫자일치"
+        },
+        {
+            "rank": 4,
+            "total_prize_amount": 3916248536,
+            "num_winners": 67271,
+            "prize_per_game": 58216,
+            "winning_criteria": "당첨번호 4개 숫자일치"
+        },
+        {
+            "rank": 5,
+            "total_prize_amount": 5610750000,
+            "num_winners": 1122150,
+            "prize_per_game": 5000,
+            "winning_criteria": "당첨번호 3개 숫자일치"
+        }
+    ],
+    "note": "",
+    "misc_info": {
+        "payment_deadline": "지급개시일로부터 1년 (휴일인 경우 익영업일)",
+        "total_sales_amount": 50383399000
+    }
+}

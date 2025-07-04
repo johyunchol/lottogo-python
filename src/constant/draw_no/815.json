@@ -1,0 +1,55 @@
+{
+    "draw_no": 815,
+    "draw_date": "2018-07-14",
+    "winning_numbers": [
+        17,
+        21,
+        25,
+        26,
+        27,
+        36
+    ],
+    "bonus_number": 4,
+    "rank_details": [
+        {
+            "rank": 1,
+            "total_prize_amount": 18058987506,
+            "num_winners": 7,
+            "prize_per_game": 2579855358,
+            "winning_criteria": "당첨번호 6개 숫자일치"
+        },
+        {
+            "rank": 2,
+            "total_prize_amount": 3009831279,
+            "num_winners": 39,
+            "prize_per_game": 77175161,
+            "winning_criteria": "당첨번호 5개 숫자일치+보너스 숫자일치"
+        },
+        {
+            "rank": 3,
+            "total_prize_amount": 3009832813,
+            "num_winners": 1703,
+            "prize_per_game": 1767371,
+            "winning_criteria": "당첨번호 5개 숫자일치"
+        },
+        {
+            "rank": 4,
+            "total_prize_amount": 4648850000,
+            "num_winners": 92977,
+            "prize_per_game": 50000,
+            "winning_criteria": "당첨번호 4개 숫자일치"
+        },
+        {
+            "rank": 5,
+            "total_prize_amount": 7980700000,
+            "num_winners": 1596140,
+            "prize_per_game": 5000,
+            "winning_criteria": "당첨번호 3개 숫자일치"
+        }
+    ],
+    "note": "1등 자동5 반자동2",
+    "misc_info": {
+        "payment_deadline": "지급개시일로부터 1년 (휴일인 경우 익영업일)",
+        "total_sales_amount": 73416400000
+    }
+}

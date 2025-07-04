@@ -1,0 +1,55 @@
+{
+    "draw_no": 895,
+    "draw_date": "2020-01-25",
+    "winning_numbers": [
+        16,
+        26,
+        31,
+        38,
+        39,
+        41
+    ],
+    "bonus_number": 23,
+    "rank_details": [
+        {
+            "rank": 1,
+            "total_prize_amount": 23136950628,
+            "num_winners": 12,
+            "prize_per_game": 1928079219,
+            "winning_criteria": "당첨번호 6개 숫자일치"
+        },
+        {
+            "rank": 2,
+            "total_prize_amount": 3856158478,
+            "num_winners": 58,
+            "prize_per_game": 66485491,
+            "winning_criteria": "당첨번호 5개 숫자일치+보너스 숫자일치"
+        },
+        {
+            "rank": 3,
+            "total_prize_amount": 3856160000,
+            "num_winners": 2750,
+            "prize_per_game": 1402240,
+            "winning_criteria": "당첨번호 5개 숫자일치"
+        },
+        {
+            "rank": 4,
+            "total_prize_amount": 6702950000,
+            "num_winners": 134059,
+            "prize_per_game": 50000,
+            "winning_criteria": "당첨번호 4개 숫자일치"
+        },
+        {
+            "rank": 5,
+            "total_prize_amount": 10928910000,
+            "num_winners": 2185782,
+            "prize_per_game": 5000,
+            "winning_criteria": "당첨번호 3개 숫자일치"
+        }
+    ],
+    "note": "1등 자동10 수동2",
+    "misc_info": {
+        "payment_deadline": "지급개시일로부터 1년 (휴일인 경우 익영업일)",
+        "total_sales_amount": 96962255000
+    }
+}

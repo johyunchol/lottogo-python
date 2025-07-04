@@ -1,0 +1,55 @@
+{
+    "draw_no": 306,
+    "draw_date": "2008-10-11",
+    "winning_numbers": [
+        4,
+        18,
+        23,
+        30,
+        34,
+        41
+    ],
+    "bonus_number": 19,
+    "rank_details": [
+        {
+            "rank": 1,
+            "total_prize_amount": 10513347600,
+            "num_winners": 5,
+            "prize_per_game": 2102669520,
+            "winning_criteria": "당첨번호 6개 숫자일치"
+        },
+        {
+            "rank": 2,
+            "total_prize_amount": 1752224617,
+            "num_winners": 23,
+            "prize_per_game": 76183679,
+            "winning_criteria": "당첨번호 5개 숫자일치+보너스 숫자일치"
+        },
+        {
+            "rank": 3,
+            "total_prize_amount": 1752224732,
+            "num_winners": 1219,
+            "prize_per_game": 1437428,
+            "winning_criteria": "당첨번호 5개 숫자일치"
+        },
+        {
+            "rank": 4,
+            "total_prize_amount": 3504503714,
+            "num_winners": 56687,
+            "prize_per_game": 61822,
+            "winning_criteria": "당첨번호 4개 숫자일치"
+        },
+        {
+            "rank": 5,
+            "total_prize_amount": 4688485000,
+            "num_winners": 937697,
+            "prize_per_game": 5000,
+            "winning_criteria": "당첨번호 3개 숫자일치"
+        }
+    ],
+    "note": "1등 자동5",
+    "misc_info": {
+        "payment_deadline": "지급개시일로부터 1년 (휴일인 경우 익영업일)",
+        "total_sales_amount": 44421462000
+    }
+}

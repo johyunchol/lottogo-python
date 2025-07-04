@@ -1,0 +1,55 @@
+{
+    "draw_no": 897,
+    "draw_date": "2020-02-08",
+    "winning_numbers": [
+        6,
+        7,
+        12,
+        22,
+        26,
+        36
+    ],
+    "bonus_number": 29,
+    "rank_details": [
+        {
+            "rank": 1,
+            "total_prize_amount": 21058992760,
+            "num_winners": 13,
+            "prize_per_game": 1619922520,
+            "winning_criteria": "당첨번호 6개 숫자일치"
+        },
+        {
+            "rank": 2,
+            "total_prize_amount": 3509832152,
+            "num_winners": 62,
+            "prize_per_game": 56610196,
+            "winning_criteria": "당첨번호 5개 숫자일치+보너스 숫자일치"
+        },
+        {
+            "rank": 3,
+            "total_prize_amount": 3509832700,
+            "num_winners": 2398,
+            "prize_per_game": 1463650,
+            "winning_criteria": "당첨번호 5개 숫자일치"
+        },
+        {
+            "rank": 4,
+            "total_prize_amount": 6053800000,
+            "num_winners": 121076,
+            "prize_per_game": 50000,
+            "winning_criteria": "당첨번호 4개 숫자일치"
+        },
+        {
+            "rank": 5,
+            "total_prize_amount": 9983280000,
+            "num_winners": 1996656,
+            "prize_per_game": 5000,
+            "winning_criteria": "당첨번호 3개 숫자일치"
+        }
+    ],
+    "note": "1등 자동6 수동7",
+    "misc_info": {
+        "payment_deadline": "지급개시일로부터 1년 (휴일인 경우 익영업일)",
+        "total_sales_amount": 88231474000
+    }
+}

@@ -1,0 +1,55 @@
+{
+    "draw_no": 962,
+    "draw_date": "2021-05-08",
+    "winning_numbers": [
+        1,
+        18,
+        28,
+        31,
+        34,
+        43
+    ],
+    "bonus_number": 40,
+    "rank_details": [
+        {
+            "rank": 1,
+            "total_prize_amount": 23290873128,
+            "num_winners": 12,
+            "prize_per_game": 1940906094,
+            "winning_criteria": "당첨번호 6개 숫자일치"
+        },
+        {
+            "rank": 2,
+            "total_prize_amount": 3881812230,
+            "num_winners": 73,
+            "prize_per_game": 53175510,
+            "winning_criteria": "당첨번호 5개 숫자일치+보너스 숫자일치"
+        },
+        {
+            "rank": 3,
+            "total_prize_amount": 3881813676,
+            "num_winners": 2581,
+            "prize_per_game": 1503996,
+            "winning_criteria": "당첨번호 5개 숫자일치"
+        },
+        {
+            "rank": 4,
+            "total_prize_amount": 6326400000,
+            "num_winners": 126528,
+            "prize_per_game": 50000,
+            "winning_criteria": "당첨번호 4개 숫자일치"
+        },
+        {
+            "rank": 5,
+            "total_prize_amount": 10597285000,
+            "num_winners": 2119457,
+            "prize_per_game": 5000,
+            "winning_criteria": "당첨번호 3개 숫자일치"
+        }
+    ],
+    "note": "1등 자동8 수동4",
+    "misc_info": {
+        "payment_deadline": "지급개시일로부터 1년 (휴일인 경우 익영업일)",
+        "total_sales_amount": 95956365000
+    }
+}

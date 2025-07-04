@@ -1,0 +1,55 @@
+{
+    "draw_no": 938,
+    "draw_date": "2020-11-21",
+    "winning_numbers": [
+        4,
+        8,
+        10,
+        16,
+        31,
+        36
+    ],
+    "bonus_number": 9,
+    "rank_details": [
+        {
+            "rank": 1,
+            "total_prize_amount": 22494665630,
+            "num_winners": 10,
+            "prize_per_game": 2249466563,
+            "winning_criteria": "당첨번호 6개 숫자일치"
+        },
+        {
+            "rank": 2,
+            "total_prize_amount": 3749110976,
+            "num_winners": 64,
+            "prize_per_game": 58579859,
+            "winning_criteria": "당첨번호 5개 숫자일치+보너스 숫자일치"
+        },
+        {
+            "rank": 3,
+            "total_prize_amount": 3749112087,
+            "num_winners": 2531,
+            "prize_per_game": 1481277,
+            "winning_criteria": "당첨번호 5개 숫자일치"
+        },
+        {
+            "rank": 4,
+            "total_prize_amount": 6248550000,
+            "num_winners": 124971,
+            "prize_per_game": 50000,
+            "winning_criteria": "당첨번호 4개 숫자일치"
+        },
+        {
+            "rank": 5,
+            "total_prize_amount": 10484775000,
+            "num_winners": 2096955,
+            "prize_per_game": 5000,
+            "winning_criteria": "당첨번호 3개 숫자일치"
+        }
+    ],
+    "note": "1등 자동10",
+    "misc_info": {
+        "payment_deadline": "지급개시일로부터 1년 (휴일인 경우 익영업일)",
+        "total_sales_amount": 93452425000
+    }
+}

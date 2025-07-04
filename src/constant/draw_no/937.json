@@ -1,0 +1,55 @@
+{
+    "draw_no": 937,
+    "draw_date": "2020-11-14",
+    "winning_numbers": [
+        2,
+        10,
+        13,
+        22,
+        29,
+        40
+    ],
+    "bonus_number": 26,
+    "rank_details": [
+        {
+            "rank": 1,
+            "total_prize_amount": 22642629009,
+            "num_winners": 11,
+            "prize_per_game": 2058420819,
+            "winning_criteria": "당첨번호 6개 숫자일치"
+        },
+        {
+            "rank": 2,
+            "total_prize_amount": 3773771526,
+            "num_winners": 57,
+            "prize_per_game": 66206518,
+            "winning_criteria": "당첨번호 5개 숫자일치+보너스 숫자일치"
+        },
+        {
+            "rank": 3,
+            "total_prize_amount": 3773773840,
+            "num_winners": 2480,
+            "prize_per_game": 1521683,
+            "winning_criteria": "당첨번호 5개 숫자일치"
+        },
+        {
+            "rank": 4,
+            "total_prize_amount": 6207050000,
+            "num_winners": 124141,
+            "prize_per_game": 50000,
+            "winning_criteria": "당첨번호 4개 숫자일치"
+        },
+        {
+            "rank": 5,
+            "total_prize_amount": 10463005000,
+            "num_winners": 2092601,
+            "prize_per_game": 5000,
+            "winning_criteria": "당첨번호 3개 숫자일치"
+        }
+    ],
+    "note": "1등 자동9 수동2",
+    "misc_info": {
+        "payment_deadline": "지급개시일로부터 1년 (휴일인 경우 익영업일)",
+        "total_sales_amount": 93720454000
+    }
+}

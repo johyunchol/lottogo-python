@@ -1,0 +1,55 @@
+{
+    "draw_no": 1028,
+    "draw_date": "2022-08-13",
+    "winning_numbers": [
+        5,
+        7,
+        12,
+        13,
+        18,
+        35
+    ],
+    "bonus_number": 23,
+    "rank_details": [
+        {
+            "rank": 1,
+            "total_prize_amount": 23624702640,
+            "num_winners": 20,
+            "prize_per_game": 1181235132,
+            "winning_criteria": "당첨번호 6개 숫자일치"
+        },
+        {
+            "rank": 2,
+            "total_prize_amount": 3937450517,
+            "num_winners": 91,
+            "prize_per_game": 43268687,
+            "winning_criteria": "당첨번호 5개 숫자일치+보너스 숫자일치"
+        },
+        {
+            "rank": 3,
+            "total_prize_amount": 3937450680,
+            "num_winners": 2810,
+            "prize_per_game": 1401228,
+            "winning_criteria": "당첨번호 5개 숫자일치"
+        },
+        {
+            "rank": 4,
+            "total_prize_amount": 7138900000,
+            "num_winners": 142778,
+            "prize_per_game": 50000,
+            "winning_criteria": "당첨번호 4개 숫자일치"
+        },
+        {
+            "rank": 5,
+            "total_prize_amount": 11668265000,
+            "num_winners": 2333653,
+            "prize_per_game": 5000,
+            "winning_criteria": "당첨번호 3개 숫자일치"
+        }
+    ],
+    "note": "1등 자동18 수동2",
+    "misc_info": {
+        "payment_deadline": "지급개시일로부터 1년 (휴일인 경우 익영업일)",
+        "total_sales_amount": 100613537000
+    }
+}

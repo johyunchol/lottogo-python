@@ -1,0 +1,55 @@
+{
+    "draw_no": 844,
+    "draw_date": "2019-02-02",
+    "winning_numbers": [
+        7,
+        8,
+        13,
+        15,
+        33,
+        45
+    ],
+    "bonus_number": 18,
+    "rank_details": [
+        {
+            "rank": 1,
+            "total_prize_amount": 20933343756,
+            "num_winners": 18,
+            "prize_per_game": 1162963542,
+            "winning_criteria": "당첨번호 6개 숫자일치"
+        },
+        {
+            "rank": 2,
+            "total_prize_amount": 3488890679,
+            "num_winners": 73,
+            "prize_per_game": 47793023,
+            "winning_criteria": "당첨번호 5개 숫자일치+보너스 숫자일치"
+        },
+        {
+            "rank": 3,
+            "total_prize_amount": 3488892480,
+            "num_winners": 2406,
+            "prize_per_game": 1450080,
+            "winning_criteria": "당첨번호 5개 숫자일치"
+        },
+        {
+            "rank": 4,
+            "total_prize_amount": 6003900000,
+            "num_winners": 120078,
+            "prize_per_game": 50000,
+            "winning_criteria": "당첨번호 4개 숫자일치"
+        },
+        {
+            "rank": 5,
+            "total_prize_amount": 9987780000,
+            "num_winners": 1997556,
+            "prize_per_game": 5000,
+            "winning_criteria": "당첨번호 3개 숫자일치"
+        }
+    ],
+    "note": "1등 자동13 수동3 반자동2",
+    "misc_info": {
+        "payment_deadline": "지급개시일로부터 1년 (휴일인 경우 익영업일)",
+        "total_sales_amount": 87805610000
+    }
+}

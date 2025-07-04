@@ -1,0 +1,55 @@
+{
+    "draw_no": 834,
+    "draw_date": "2018-11-24",
+    "winning_numbers": [
+        6,
+        8,
+        18,
+        35,
+        42,
+        43
+    ],
+    "bonus_number": 3,
+    "rank_details": [
+        {
+            "rank": 1,
+            "total_prize_amount": 18597630381,
+            "num_winners": 11,
+            "prize_per_game": 1690693671,
+            "winning_criteria": "당첨번호 6개 숫자일치"
+        },
+        {
+            "rank": 2,
+            "total_prize_amount": 3099605068,
+            "num_winners": 47,
+            "prize_per_game": 65949044,
+            "winning_criteria": "당첨번호 5개 숫자일치+보너스 숫자일치"
+        },
+        {
+            "rank": 3,
+            "total_prize_amount": 3099606468,
+            "num_winners": 1967,
+            "prize_per_game": 1575804,
+            "winning_criteria": "당첨번호 5개 숫자일치"
+        },
+        {
+            "rank": 4,
+            "total_prize_amount": 4956600000,
+            "num_winners": 99132,
+            "prize_per_game": 50000,
+            "winning_criteria": "당첨번호 4개 숫자일치"
+        },
+        {
+            "rank": 5,
+            "total_prize_amount": 8217455000,
+            "num_winners": 1643491,
+            "prize_per_game": 5000,
+            "winning_criteria": "당첨번호 3개 숫자일치"
+        }
+    ],
+    "note": "1등 자동7 수동4",
+    "misc_info": {
+        "payment_deadline": "지급개시일로부터 1년 (휴일인 경우 익영업일)",
+        "total_sales_amount": 75941791000
+    }
+}

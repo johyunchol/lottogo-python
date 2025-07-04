@@ -1,0 +1,55 @@
+{
+    "draw_no": 547,
+    "draw_date": "2013-05-25",
+    "winning_numbers": [
+        6,
+        7,
+        15,
+        22,
+        34,
+        39
+    ],
+    "bonus_number": 28,
+    "rank_details": [
+        {
+            "rank": 1,
+            "total_prize_amount": 14192222250,
+            "num_winners": 5,
+            "prize_per_game": 2838444450,
+            "winning_criteria": "당첨번호 6개 숫자일치"
+        },
+        {
+            "rank": 2,
+            "total_prize_amount": 2365370424,
+            "num_winners": 54,
+            "prize_per_game": 43803156,
+            "winning_criteria": "당첨번호 5개 숫자일치+보너스 숫자일치"
+        },
+        {
+            "rank": 3,
+            "total_prize_amount": 2365371864,
+            "num_winners": 1548,
+            "prize_per_game": 1528018,
+            "winning_criteria": "당첨번호 5개 숫자일치"
+        },
+        {
+            "rank": 4,
+            "total_prize_amount": 3776350000,
+            "num_winners": 75527,
+            "prize_per_game": 50000,
+            "winning_criteria": "당첨번호 4개 숫자일치"
+        },
+        {
+            "rank": 5,
+            "total_prize_amount": 6284920000,
+            "num_winners": 1256984,
+            "prize_per_game": 5000,
+            "winning_criteria": "당첨번호 3개 숫자일치"
+        }
+    ],
+    "note": "1등 자동4 수동1",
+    "misc_info": {
+        "payment_deadline": "지급개시일로부터 1년 (휴일인 경우 익영업일)",
+        "total_sales_amount": 57968466000
+    }
+}

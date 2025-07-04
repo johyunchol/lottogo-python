@@ -1,0 +1,55 @@
+{
+    "draw_no": 654,
+    "draw_date": "2015-06-13",
+    "winning_numbers": [
+        16,
+        21,
+        26,
+        31,
+        36,
+        43
+    ],
+    "bonus_number": 6,
+    "rank_details": [
+        {
+            "rank": 1,
+            "total_prize_amount": 15034411128,
+            "num_winners": 8,
+            "prize_per_game": 1879301391,
+            "winning_criteria": "당첨번호 6개 숫자일치"
+        },
+        {
+            "rank": 2,
+            "total_prize_amount": 2505735207,
+            "num_winners": 69,
+            "prize_per_game": 36315003,
+            "winning_criteria": "당첨번호 5개 숫자일치+보너스 숫자일치"
+        },
+        {
+            "rank": 3,
+            "total_prize_amount": 2505736761,
+            "num_winners": 1787,
+            "prize_per_game": 1402203,
+            "winning_criteria": "당첨번호 5개 숫자일치"
+        },
+        {
+            "rank": 4,
+            "total_prize_amount": 3889400000,
+            "num_winners": 77788,
+            "prize_per_game": 50000,
+            "winning_criteria": "당첨번호 4개 숫자일치"
+        },
+        {
+            "rank": 5,
+            "total_prize_amount": 6413625000,
+            "num_winners": 1282725,
+            "prize_per_game": 5000,
+            "winning_criteria": "당첨번호 3개 숫자일치"
+        }
+    ],
+    "note": "1등 자동6 수동2",
+    "misc_info": {
+        "payment_deadline": "지급개시일로부터 1년 (휴일인 경우 익영업일)",
+        "total_sales_amount": 60697813000
+    }
+}

@@ -1,0 +1,55 @@
+{
+    "draw_no": 822,
+    "draw_date": "2018-09-01",
+    "winning_numbers": [
+        9,
+        18,
+        20,
+        24,
+        27,
+        36
+    ],
+    "bonus_number": 12,
+    "rank_details": [
+        {
+            "rank": 1,
+            "total_prize_amount": 17792695875,
+            "num_winners": 3,
+            "prize_per_game": 5930898625,
+            "winning_criteria": "당첨번호 6개 숫자일치"
+        },
+        {
+            "rank": 2,
+            "total_prize_amount": 2965449386,
+            "num_winners": 79,
+            "prize_per_game": 37537334,
+            "winning_criteria": "당첨번호 5개 숫자일치+보너스 숫자일치"
+        },
+        {
+            "rank": 3,
+            "total_prize_amount": 2965449621,
+            "num_winners": 2153,
+            "prize_per_game": 1377357,
+            "winning_criteria": "당첨번호 5개 숫자일치"
+        },
+        {
+            "rank": 4,
+            "total_prize_amount": 5439450000,
+            "num_winners": 108789,
+            "prize_per_game": 50000,
+            "winning_criteria": "당첨번호 4개 숫자일치"
+        },
+        {
+            "rank": 5,
+            "total_prize_amount": 8677825000,
+            "num_winners": 1735565,
+            "prize_per_game": 5000,
+            "winning_criteria": "당첨번호 3개 숫자일치"
+        }
+    ],
+    "note": "1등 자동1 수동1 반자동1",
+    "misc_info": {
+        "payment_deadline": "지급개시일로부터 1년 (휴일인 경우 익영업일)",
+        "total_sales_amount": 75681739000
+    }
+}

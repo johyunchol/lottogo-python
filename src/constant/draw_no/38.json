@@ -1,0 +1,55 @@
+{
+    "draw_no": 38,
+    "draw_date": "2003-08-23",
+    "winning_numbers": [
+        16,
+        17,
+        22,
+        30,
+        37,
+        43
+    ],
+    "bonus_number": 36,
+    "rank_details": [
+        {
+            "rank": 1,
+            "total_prize_amount": 16124599200,
+            "num_winners": 3,
+            "prize_per_game": 5374866400,
+            "winning_criteria": "당첨번호 6개 숫자일치"
+        },
+        {
+            "rank": 2,
+            "total_prize_amount": 2687432400,
+            "num_winners": 18,
+            "prize_per_game": 149301800,
+            "winning_criteria": "당첨번호 5개 숫자일치+보너스 숫자일치"
+        },
+        {
+            "rank": 3,
+            "total_prize_amount": 2687414100,
+            "num_winners": 679,
+            "prize_per_game": 3957900,
+            "winning_criteria": "당첨번호 5개 숫자일치"
+        },
+        {
+            "rank": 4,
+            "total_prize_amount": 5372882900,
+            "num_winners": 36377,
+            "prize_per_game": 147700,
+            "winning_criteria": "당첨번호 4개 숫자일치"
+        },
+        {
+            "rank": 5,
+            "total_prize_amount": 6810310000,
+            "num_winners": 681031,
+            "prize_per_game": 10000,
+            "winning_criteria": "당첨번호 3개 숫자일치"
+        }
+    ],
+    "note": "",
+    "misc_info": {
+        "payment_deadline": "지급개시일로부터 1년 (휴일인 경우 익영업일)",
+        "total_sales_amount": 67369284000
+    }
+}

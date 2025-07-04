@@ -1,0 +1,55 @@
+{
+    "draw_no": 941,
+    "draw_date": "2020-12-12",
+    "winning_numbers": [
+        12,
+        14,
+        25,
+        27,
+        39,
+        40
+    ],
+    "bonus_number": 35,
+    "rank_details": [
+        {
+            "rank": 1,
+            "total_prize_amount": 21556758752,
+            "num_winners": 16,
+            "prize_per_game": 1347297422,
+            "winning_criteria": "당첨번호 6개 숫자일치"
+        },
+        {
+            "rank": 2,
+            "total_prize_amount": 3592793151,
+            "num_winners": 87,
+            "prize_per_game": 41296473,
+            "winning_criteria": "당첨번호 5개 숫자일치+보너스 숫자일치"
+        },
+        {
+            "rank": 3,
+            "total_prize_amount": 3592796175,
+            "num_winners": 3275,
+            "prize_per_game": 1097037,
+            "winning_criteria": "당첨번호 5개 숫자일치"
+        },
+        {
+            "rank": 4,
+            "total_prize_amount": 7277200000,
+            "num_winners": 145544,
+            "prize_per_game": 50000,
+            "winning_criteria": "당첨번호 4개 숫자일치"
+        },
+        {
+            "rank": 5,
+            "total_prize_amount": 11414255000,
+            "num_winners": 2282851,
+            "prize_per_game": 5000,
+            "winning_criteria": "당첨번호 3개 숫자일치"
+        }
+    ],
+    "note": "1등 자동7 수동8 반자동1",
+    "misc_info": {
+        "payment_deadline": "지급개시일로부터 1년 (휴일인 경우 익영업일)",
+        "total_sales_amount": 94867600000
+    }
+}

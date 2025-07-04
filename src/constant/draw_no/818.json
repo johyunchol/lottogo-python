@@ -1,0 +1,55 @@
+{
+    "draw_no": 818,
+    "draw_date": "2018-08-04",
+    "winning_numbers": [
+        14,
+        15,
+        25,
+        28,
+        29,
+        30
+    ],
+    "bonus_number": 3,
+    "rank_details": [
+        {
+            "rank": 1,
+            "total_prize_amount": 17950456134,
+            "num_winners": 13,
+            "prize_per_game": 1380804318,
+            "winning_criteria": "당첨번호 6개 숫자일치"
+        },
+        {
+            "rank": 2,
+            "total_prize_amount": 2991742689,
+            "num_winners": 39,
+            "prize_per_game": 76711351,
+            "winning_criteria": "당첨번호 5개 숫자일치+보너스 숫자일치"
+        },
+        {
+            "rank": 3,
+            "total_prize_amount": 2991743145,
+            "num_winners": 1845,
+            "prize_per_game": 1621541,
+            "winning_criteria": "당첨번호 5개 숫자일치"
+        },
+        {
+            "rank": 4,
+            "total_prize_amount": 4510250000,
+            "num_winners": 90205,
+            "prize_per_game": 50000,
+            "winning_criteria": "당첨번호 4개 숫자일치"
+        },
+        {
+            "rank": 5,
+            "total_prize_amount": 7452485000,
+            "num_winners": 1490497,
+            "prize_per_game": 5000,
+            "winning_criteria": "당첨번호 3개 숫자일치"
+        }
+    ],
+    "note": "1등 자동8 수동4 반자동1",
+    "misc_info": {
+        "payment_deadline": "지급개시일로부터 1년 (휴일인 경우 익영업일)",
+        "total_sales_amount": 71793353000
+    }
+}

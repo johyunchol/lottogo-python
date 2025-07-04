@@ -1,0 +1,55 @@
+{
+    "draw_no": 745,
+    "draw_date": "2017-03-11",
+    "winning_numbers": [
+        1,
+        2,
+        3,
+        9,
+        12,
+        23
+    ],
+    "bonus_number": 10,
+    "rank_details": [
+        {
+            "rank": 1,
+            "total_prize_amount": 14936459640,
+            "num_winners": 20,
+            "prize_per_game": 746822982,
+            "winning_criteria": "당첨번호 6개 숫자일치"
+        },
+        {
+            "rank": 2,
+            "total_prize_amount": 2489410000,
+            "num_winners": 110,
+            "prize_per_game": 22631000,
+            "winning_criteria": "당첨번호 5개 숫자일치+보너스 숫자일치"
+        },
+        {
+            "rank": 3,
+            "total_prize_amount": 2489412224,
+            "num_winners": 3692,
+            "prize_per_game": 674272,
+            "winning_criteria": "당첨번호 5개 숫자일치"
+        },
+        {
+            "rank": 4,
+            "total_prize_amount": 7095900000,
+            "num_winners": 141918,
+            "prize_per_game": 50000,
+            "winning_criteria": "당첨번호 4개 숫자일치"
+        },
+        {
+            "rank": 5,
+            "total_prize_amount": 9776380000,
+            "num_winners": 1955276,
+            "prize_per_game": 5000,
+            "winning_criteria": "당첨번호 3개 숫자일치"
+        }
+    ],
+    "note": "1등 자동7 수동11 반자동2",
+    "misc_info": {
+        "payment_deadline": "지급개시일로부터 1년 (휴일인 경우 익영업일)",
+        "total_sales_amount": 73575119000
+    }
+}

@@ -1,0 +1,55 @@
+{
+    "draw_no": 98,
+    "draw_date": "2004-10-16",
+    "winning_numbers": [
+        6,
+        9,
+        16,
+        23,
+        24,
+        32
+    ],
+    "bonus_number": 43,
+    "rank_details": [
+        {
+            "rank": 1,
+            "total_prize_amount": 12711889200,
+            "num_winners": 4,
+            "prize_per_game": 3177972300,
+            "winning_criteria": "당첨번호 6개 숫자일치"
+        },
+        {
+            "rank": 2,
+            "total_prize_amount": 2118648240,
+            "num_winners": 45,
+            "prize_per_game": 47081072,
+            "winning_criteria": "당첨번호 5개 숫자일치+보너스 숫자일치"
+        },
+        {
+            "rank": 3,
+            "total_prize_amount": 2118649080,
+            "num_winners": 1880,
+            "prize_per_game": 1126941,
+            "winning_criteria": "당첨번호 5개 숫자일치"
+        },
+        {
+            "rank": 4,
+            "total_prize_amount": 4237306318,
+            "num_winners": 87818,
+            "prize_per_game": 48251,
+            "winning_criteria": "당첨번호 4개 숫자일치"
+        },
+        {
+            "rank": 5,
+            "total_prize_amount": 6929060000,
+            "num_winners": 1385812,
+            "prize_per_game": 5000,
+            "winning_criteria": "당첨번호 3개 숫자일치"
+        }
+    ],
+    "note": "",
+    "misc_info": {
+        "payment_deadline": "지급개시일로부터 1년 (휴일인 경우 익영업일)",
+        "total_sales_amount": 56231084000
+    }
+}

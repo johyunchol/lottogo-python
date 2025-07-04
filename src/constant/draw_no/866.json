@@ -1,0 +1,55 @@
+{
+    "draw_no": 866,
+    "draw_date": "2019-07-06",
+    "winning_numbers": [
+        9,
+        15,
+        29,
+        34,
+        37,
+        39
+    ],
+    "bonus_number": 12,
+    "rank_details": [
+        {
+            "rank": 1,
+            "total_prize_amount": 20163681000,
+            "num_winners": 9,
+            "prize_per_game": 2240409000,
+            "winning_criteria": "당첨번호 6개 숫자일치"
+        },
+        {
+            "rank": 2,
+            "total_prize_amount": 3360613516,
+            "num_winners": 68,
+            "prize_per_game": 49420787,
+            "winning_criteria": "당첨번호 5개 숫자일치+보너스 숫자일치"
+        },
+        {
+            "rank": 3,
+            "total_prize_amount": 3360615280,
+            "num_winners": 2035,
+            "prize_per_game": 1651408,
+            "winning_criteria": "당첨번호 5개 숫자일치"
+        },
+        {
+            "rank": 4,
+            "total_prize_amount": 5245950000,
+            "num_winners": 104919,
+            "prize_per_game": 50000,
+            "winning_criteria": "당첨번호 4개 숫자일치"
+        },
+        {
+            "rank": 5,
+            "total_prize_amount": 8850085000,
+            "num_winners": 1770017,
+            "prize_per_game": 5000,
+            "winning_criteria": "당첨번호 3개 숫자일치"
+        }
+    ],
+    "note": "1등 자동4 수동3 반자동2",
+    "misc_info": {
+        "payment_deadline": "지급개시일로부터 1년 (휴일인 경우 익영업일)",
+        "total_sales_amount": 81961886000
+    }
+}

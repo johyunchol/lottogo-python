@@ -1,0 +1,55 @@
+{
+    "draw_no": 971,
+    "draw_date": "2021-07-10",
+    "winning_numbers": [
+        2,
+        6,
+        17,
+        18,
+        21,
+        26
+    ],
+    "bonus_number": 7,
+    "rank_details": [
+        {
+            "rank": 1,
+            "total_prize_amount": 22355281500,
+            "num_winners": 6,
+            "prize_per_game": 3725880250,
+            "winning_criteria": "당첨번호 6개 숫자일치"
+        },
+        {
+            "rank": 2,
+            "total_prize_amount": 3725880266,
+            "num_winners": 62,
+            "prize_per_game": 60094843,
+            "winning_criteria": "당첨번호 5개 숫자일치+보너스 숫자일치"
+        },
+        {
+            "rank": 3,
+            "total_prize_amount": 3725880525,
+            "num_winners": 2685,
+            "prize_per_game": 1387665,
+            "winning_criteria": "당첨번호 5개 숫자일치"
+        },
+        {
+            "rank": 4,
+            "total_prize_amount": 6570450000,
+            "num_winners": 131409,
+            "prize_per_game": 50000,
+            "winning_criteria": "당첨번호 4개 숫자일치"
+        },
+        {
+            "rank": 5,
+            "total_prize_amount": 10858470000,
+            "num_winners": 2171694,
+            "prize_per_game": 5000,
+            "winning_criteria": "당첨번호 3개 숫자일치"
+        }
+    ],
+    "note": "1등 자동4 수동1 반자동1",
+    "misc_info": {
+        "payment_deadline": "지급개시일로부터 1년 (휴일인 경우 익영업일)",
+        "total_sales_amount": 94471924000
+    }
+}

@@ -1,0 +1,55 @@
+{
+    "draw_no": 904,
+    "draw_date": "2020-03-28",
+    "winning_numbers": [
+        2,
+        6,
+        8,
+        26,
+        43,
+        45
+    ],
+    "bonus_number": 11,
+    "rank_details": [
+        {
+            "rank": 1,
+            "total_prize_amount": 21744622504,
+            "num_winners": 8,
+            "prize_per_game": 2718077813,
+            "winning_criteria": "당첨번호 6개 숫자일치"
+        },
+        {
+            "rank": 2,
+            "total_prize_amount": 3624103836,
+            "num_winners": 92,
+            "prize_per_game": 39392433,
+            "winning_criteria": "당첨번호 5개 숫자일치+보너스 숫자일치"
+        },
+        {
+            "rank": 3,
+            "total_prize_amount": 3624105087,
+            "num_winners": 2337,
+            "prize_per_game": 1550751,
+            "winning_criteria": "당첨번호 5개 숫자일치"
+        },
+        {
+            "rank": 4,
+            "total_prize_amount": 5781300000,
+            "num_winners": 115626,
+            "prize_per_game": 50000,
+            "winning_criteria": "당첨번호 4개 숫자일치"
+        },
+        {
+            "rank": 5,
+            "total_prize_amount": 9694980000,
+            "num_winners": 1938996,
+            "prize_per_game": 5000,
+            "winning_criteria": "당첨번호 3개 숫자일치"
+        }
+    ],
+    "note": "1등 자동6 수동2",
+    "misc_info": {
+        "payment_deadline": "지급개시일로부터 1년 (휴일인 경우 익영업일)",
+        "total_sales_amount": 88938220000
+    }
+}

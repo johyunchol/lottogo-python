@@ -1,0 +1,55 @@
+{
+    "draw_no": 426,
+    "draw_date": "2011-01-29",
+    "winning_numbers": [
+        4,
+        17,
+        18,
+        27,
+        39,
+        43
+    ],
+    "bonus_number": 19,
+    "rank_details": [
+        {
+            "rank": 1,
+            "total_prize_amount": 12228934500,
+            "num_winners": 4,
+            "prize_per_game": 3057233625,
+            "winning_criteria": "당첨번호 6개 숫자일치"
+        },
+        {
+            "rank": 2,
+            "total_prize_amount": 2038155777,
+            "num_winners": 63,
+            "prize_per_game": 32351679,
+            "winning_criteria": "당첨번호 5개 숫자일치+보너스 숫자일치"
+        },
+        {
+            "rank": 3,
+            "total_prize_amount": 2038156505,
+            "num_winners": 1463,
+            "prize_per_game": 1393135,
+            "winning_criteria": "당첨번호 5개 숫자일치"
+        },
+        {
+            "rank": 4,
+            "total_prize_amount": 3555100000,
+            "num_winners": 71102,
+            "prize_per_game": 50000,
+            "winning_criteria": "당첨번호 4개 숫자일치"
+        },
+        {
+            "rank": 5,
+            "total_prize_amount": 5872950000,
+            "num_winners": 1174590,
+            "prize_per_game": 5000,
+            "winning_criteria": "당첨번호 3개 숫자일치"
+        }
+    ],
+    "note": "1등 자동4",
+    "misc_info": {
+        "payment_deadline": "지급개시일로부터 1년 (휴일인 경우 익영업일)",
+        "total_sales_amount": 51466592000
+    }
+}

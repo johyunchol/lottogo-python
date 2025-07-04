@@ -1,0 +1,55 @@
+{
+    "draw_no": 1049,
+    "draw_date": "2023-01-07",
+    "winning_numbers": [
+        3,
+        5,
+        13,
+        20,
+        21,
+        37
+    ],
+    "bonus_number": 17,
+    "rank_details": [
+        {
+            "rank": 1,
+            "total_prize_amount": 25917151500,
+            "num_winners": 15,
+            "prize_per_game": 1727810100,
+            "winning_criteria": "당첨번호 6개 숫자일치"
+        },
+        {
+            "rank": 2,
+            "total_prize_amount": 4319525288,
+            "num_winners": 89,
+            "prize_per_game": 48533992,
+            "winning_criteria": "당첨번호 5개 숫자일치+보너스 숫자일치"
+        },
+        {
+            "rank": 3,
+            "total_prize_amount": 4319526288,
+            "num_winners": 2968,
+            "prize_per_game": 1455366,
+            "winning_criteria": "당첨번호 5개 숫자일치"
+        },
+        {
+            "rank": 4,
+            "total_prize_amount": 7353050000,
+            "num_winners": 147061,
+            "prize_per_game": 50000,
+            "winning_criteria": "당첨번호 4개 숫자일치"
+        },
+        {
+            "rank": 5,
+            "total_prize_amount": 12313110000,
+            "num_winners": 2462622,
+            "prize_per_game": 5000,
+            "winning_criteria": "당첨번호 3개 숫자일치"
+        }
+    ],
+    "note": "1등 자동9 수동6",
+    "misc_info": {
+        "payment_deadline": "지급개시일로부터 1년 (휴일인 경우 익영업일)",
+        "total_sales_amount": 108444724000
+    }
+}

@@ -1,0 +1,55 @@
+{
+    "draw_no": 678,
+    "draw_date": "2015-11-28",
+    "winning_numbers": [
+        4,
+        5,
+        6,
+        12,
+        25,
+        37
+    ],
+    "bonus_number": 45,
+    "rank_details": [
+        {
+            "rank": 1,
+            "total_prize_amount": 13730941128,
+            "num_winners": 6,
+            "prize_per_game": 2288490188,
+            "winning_criteria": "당첨번호 6개 숫자일치"
+        },
+        {
+            "rank": 2,
+            "total_prize_amount": 2288490194,
+            "num_winners": 41,
+            "prize_per_game": 55816834,
+            "winning_criteria": "당첨번호 5개 숫자일치+보너스 숫자일치"
+        },
+        {
+            "rank": 3,
+            "total_prize_amount": 2288491240,
+            "num_winners": 1855,
+            "prize_per_game": 1233688,
+            "winning_criteria": "당첨번호 5개 숫자일치"
+        },
+        {
+            "rank": 4,
+            "total_prize_amount": 4665250000,
+            "num_winners": 93305,
+            "prize_per_game": 50000,
+            "winning_criteria": "당첨번호 4개 숫자일치"
+        },
+        {
+            "rank": 5,
+            "total_prize_amount": 7470475000,
+            "num_winners": 1494095,
+            "prize_per_game": 5000,
+            "winning_criteria": "당첨번호 3개 숫자일치"
+        }
+    ],
+    "note": "1등 자동5 수동1",
+    "misc_info": {
+        "payment_deadline": "지급개시일로부터 1년 (휴일인 경우 익영업일)",
+        "total_sales_amount": 60887293000
+    }
+}

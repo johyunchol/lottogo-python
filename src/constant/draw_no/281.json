@@ -1,0 +1,55 @@
+{
+    "draw_no": 281,
+    "draw_date": "2008-04-19",
+    "winning_numbers": [
+        1,
+        3,
+        4,
+        6,
+        14,
+        41
+    ],
+    "bonus_number": 12,
+    "rank_details": [
+        {
+            "rank": 1,
+            "total_prize_amount": 9328099200,
+            "num_winners": 6,
+            "prize_per_game": 1554683200,
+            "winning_criteria": "당첨번호 6개 숫자일치"
+        },
+        {
+            "rank": 2,
+            "total_prize_amount": 1554683205,
+            "num_winners": 37,
+            "prize_per_game": 42018465,
+            "winning_criteria": "당첨번호 5개 숫자일치+보너스 숫자일치"
+        },
+        {
+            "rank": 3,
+            "total_prize_amount": 1554683592,
+            "num_winners": 1491,
+            "prize_per_game": 1042712,
+            "winning_criteria": "당첨번호 5개 숫자일치"
+        },
+        {
+            "rank": 4,
+            "total_prize_amount": 3109412159,
+            "num_winners": 74543,
+            "prize_per_game": 41713,
+            "winning_criteria": "당첨번호 4개 숫자일치"
+        },
+        {
+            "rank": 5,
+            "total_prize_amount": 4853425000,
+            "num_winners": 970685,
+            "prize_per_game": 5000,
+            "winning_criteria": "당첨번호 3개 숫자일치"
+        }
+    ],
+    "note": "1등 자동3 수동3",
+    "misc_info": {
+        "payment_deadline": "지급개시일로부터 1년 (휴일인 경우 익영업일)",
+        "total_sales_amount": 40800514000
+    }
+}

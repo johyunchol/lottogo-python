@@ -1,0 +1,55 @@
+{
+    "draw_no": 513,
+    "draw_date": "2012-09-29",
+    "winning_numbers": [
+        5,
+        8,
+        21,
+        23,
+        27,
+        33
+    ],
+    "bonus_number": 12,
+    "rank_details": [
+        {
+            "rank": 1,
+            "total_prize_amount": 13768874250,
+            "num_winners": 3,
+            "prize_per_game": 4589624750,
+            "winning_criteria": "당첨번호 6개 숫자일치"
+        },
+        {
+            "rank": 2,
+            "total_prize_amount": 2294812404,
+            "num_winners": 54,
+            "prize_per_game": 42496526,
+            "winning_criteria": "당첨번호 5개 숫자일치+보너스 숫자일치"
+        },
+        {
+            "rank": 3,
+            "total_prize_amount": 2294812824,
+            "num_winners": 1626,
+            "prize_per_game": 1411324,
+            "winning_criteria": "당첨번호 5개 숫자일치"
+        },
+        {
+            "rank": 4,
+            "total_prize_amount": 4113500000,
+            "num_winners": 82270,
+            "prize_per_game": 50000,
+            "winning_criteria": "당첨번호 4개 숫자일치"
+        },
+        {
+            "rank": 5,
+            "total_prize_amount": 6686775000,
+            "num_winners": 1337355,
+            "prize_per_game": 5000,
+            "winning_criteria": "당첨번호 3개 숫자일치"
+        }
+    ],
+    "note": "1등 자동2 수동1",
+    "misc_info": {
+        "payment_deadline": "지급개시일로부터 1년 (휴일인 경우 익영업일)",
+        "total_sales_amount": 58317548000
+    }
+}

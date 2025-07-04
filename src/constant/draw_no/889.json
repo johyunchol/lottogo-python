@@ -1,0 +1,55 @@
+{
+    "draw_no": 889,
+    "draw_date": "2019-12-14",
+    "winning_numbers": [
+        3,
+        13,
+        29,
+        38,
+        39,
+        42
+    ],
+    "bonus_number": 26,
+    "rank_details": [
+        {
+            "rank": 1,
+            "total_prize_amount": 21089869500,
+            "num_winners": 10,
+            "prize_per_game": 2108986950,
+            "winning_criteria": "당첨번호 6개 숫자일치"
+        },
+        {
+            "rank": 2,
+            "total_prize_amount": 3514978260,
+            "num_winners": 60,
+            "prize_per_game": 58582971,
+            "winning_criteria": "당첨번호 5개 숫자일치+보너스 숫자일치"
+        },
+        {
+            "rank": 3,
+            "total_prize_amount": 3514979594,
+            "num_winners": 2338,
+            "prize_per_game": 1503413,
+            "winning_criteria": "당첨번호 5개 숫자일치"
+        },
+        {
+            "rank": 4,
+            "total_prize_amount": 5709900000,
+            "num_winners": 114198,
+            "prize_per_game": 50000,
+            "winning_criteria": "당첨번호 4개 숫자일치"
+        },
+        {
+            "rank": 5,
+            "total_prize_amount": 9537385000,
+            "num_winners": 1907477,
+            "prize_per_game": 5000,
+            "winning_criteria": "당첨번호 3개 숫자일치"
+        }
+    ],
+    "note": "1등 자동4 수동6",
+    "misc_info": {
+        "payment_deadline": "지급개시일로부터 1년 (휴일인 경우 익영업일)",
+        "total_sales_amount": 86734222000
+    }
+}

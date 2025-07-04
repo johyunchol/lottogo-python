@@ -1,0 +1,55 @@
+{
+    "draw_no": 995,
+    "draw_date": "2021-12-25",
+    "winning_numbers": [
+        1,
+        4,
+        13,
+        29,
+        38,
+        39
+    ],
+    "bonus_number": 7,
+    "rank_details": [
+        {
+            "rank": 1,
+            "total_prize_amount": 24130903125,
+            "num_winners": 7,
+            "prize_per_game": 3447271875,
+            "winning_criteria": "당첨번호 6개 숫자일치"
+        },
+        {
+            "rank": 2,
+            "total_prize_amount": 4021817214,
+            "num_winners": 69,
+            "prize_per_game": 58287206,
+            "winning_criteria": "당첨번호 5개 숫자일치+보너스 숫자일치"
+        },
+        {
+            "rank": 3,
+            "total_prize_amount": 4021819452,
+            "num_winners": 2793,
+            "prize_per_game": 1439964,
+            "winning_criteria": "당첨번호 5개 숫자일치"
+        },
+        {
+            "rank": 4,
+            "total_prize_amount": 6918600000,
+            "num_winners": 138372,
+            "prize_per_game": 50000,
+            "winning_criteria": "당첨번호 4개 숫자일치"
+        },
+        {
+            "rank": 5,
+            "total_prize_amount": 11346090000,
+            "num_winners": 2269218,
+            "prize_per_game": 5000,
+            "winning_criteria": "당첨번호 3개 숫자일치"
+        }
+    ],
+    "note": "1등 자동7",
+    "misc_info": {
+        "payment_deadline": "지급개시일로부터 1년 (휴일인 경우 익영업일)",
+        "total_sales_amount": 100878455000
+    }
+}

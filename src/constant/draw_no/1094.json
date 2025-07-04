@@ -1,0 +1,55 @@
+{
+    "draw_no": 1094,
+    "draw_date": "2023-11-18",
+    "winning_numbers": [
+        6,
+        7,
+        15,
+        22,
+        26,
+        40
+    ],
+    "bonus_number": 41,
+    "rank_details": [
+        {
+            "rank": 1,
+            "total_prize_amount": 25354253628,
+            "num_winners": 12,
+            "prize_per_game": 2112854469,
+            "winning_criteria": "당첨번호 6개 숫자일치"
+        },
+        {
+            "rank": 2,
+            "total_prize_amount": 4225709016,
+            "num_winners": 87,
+            "prize_per_game": 48571368,
+            "winning_criteria": "당첨번호 5개 숫자일치+보너스 숫자일치"
+        },
+        {
+            "rank": 3,
+            "total_prize_amount": 4225709275,
+            "num_winners": 2725,
+            "prize_per_game": 1550719,
+            "winning_criteria": "당첨번호 5개 숫자일치"
+        },
+        {
+            "rank": 4,
+            "total_prize_amount": 6840100000,
+            "num_winners": 136802,
+            "prize_per_game": 50000,
+            "winning_criteria": "당첨번호 4개 숫자일치"
+        },
+        {
+            "rank": 5,
+            "total_prize_amount": 11393640000,
+            "num_winners": 2278728,
+            "prize_per_game": 5000,
+            "winning_criteria": "당첨번호 3개 숫자일치"
+        }
+    ],
+    "note": "1등 자동8 수동4",
+    "misc_info": {
+        "payment_deadline": "지급개시일로부터 1년 (휴일인 경우 익영업일)",
+        "total_sales_amount": 104078823000
+    }
+}

@@ -1,0 +1,55 @@
+{
+    "draw_no": 1134,
+    "draw_date": "2024-08-24",
+    "winning_numbers": [
+        3,
+        7,
+        9,
+        13,
+        19,
+        24
+    ],
+    "bonus_number": 23,
+    "rank_details": [
+        {
+            "rank": 1,
+            "total_prize_amount": 24579651376,
+            "num_winners": 14,
+            "prize_per_game": 1755689384,
+            "winning_criteria": "당첨번호 6개 숫자일치"
+        },
+        {
+            "rank": 2,
+            "total_prize_amount": 4096608566,
+            "num_winners": 97,
+            "prize_per_game": 42233078,
+            "winning_criteria": "당첨번호 5개 숫자일치+보너스 숫자일치"
+        },
+        {
+            "rank": 3,
+            "total_prize_amount": 4096608796,
+            "num_winners": 3961,
+            "prize_per_game": 1034236,
+            "winning_criteria": "당첨번호 5개 숫자일치"
+        },
+        {
+            "rank": 4,
+            "total_prize_amount": 9017650000,
+            "num_winners": 180353,
+            "prize_per_game": 50000,
+            "winning_criteria": "당첨번호 4개 숫자일치"
+        },
+        {
+            "rank": 5,
+            "total_prize_amount": 14039525000,
+            "num_winners": 2807905,
+            "prize_per_game": 5000,
+            "winning_criteria": "당첨번호 3개 숫자일치"
+        }
+    ],
+    "note": "1등 자동8 수동4 반자동2",
+    "misc_info": {
+        "payment_deadline": "지급개시일로부터 1년 (휴일인 경우 익영업일)",
+        "total_sales_amount": 111660087000
+    }
+}

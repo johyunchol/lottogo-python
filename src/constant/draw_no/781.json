@@ -1,0 +1,55 @@
+{
+    "draw_no": 781,
+    "draw_date": "2017-11-18",
+    "winning_numbers": [
+        11,
+        16,
+        18,
+        19,
+        24,
+        39
+    ],
+    "bonus_number": 43,
+    "rank_details": [
+        {
+            "rank": 1,
+            "total_prize_amount": 16946023878,
+            "num_winners": 9,
+            "prize_per_game": 1882891542,
+            "winning_criteria": "당첨번호 6개 숫자일치"
+        },
+        {
+            "rank": 2,
+            "total_prize_amount": 2824337360,
+            "num_winners": 52,
+            "prize_per_game": 54314180,
+            "winning_criteria": "당첨번호 5개 숫자일치+보너스 숫자일치"
+        },
+        {
+            "rank": 3,
+            "total_prize_amount": 2824338587,
+            "num_winners": 1967,
+            "prize_per_game": 1435861,
+            "winning_criteria": "당첨번호 5개 숫자일치"
+        },
+        {
+            "rank": 4,
+            "total_prize_amount": 5147950000,
+            "num_winners": 102959,
+            "prize_per_game": 50000,
+            "winning_criteria": "당첨번호 4개 숫자일치"
+        },
+        {
+            "rank": 5,
+            "total_prize_amount": 8498930000,
+            "num_winners": 1699786,
+            "prize_per_game": 5000,
+            "winning_criteria": "당첨번호 3개 숫자일치"
+        }
+    ],
+    "note": "1등 자동7 수동2",
+    "misc_info": {
+        "payment_deadline": "지급개시일로부터 1년 (휴일인 경우 익영업일)",
+        "total_sales_amount": 72483157000
+    }
+}

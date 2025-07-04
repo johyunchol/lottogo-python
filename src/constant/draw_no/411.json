@@ -1,0 +1,55 @@
+{
+    "draw_no": 411,
+    "draw_date": "2010-10-16",
+    "winning_numbers": [
+        11,
+        14,
+        22,
+        35,
+        37,
+        39
+    ],
+    "bonus_number": 5,
+    "rank_details": [
+        {
+            "rank": 1,
+            "total_prize_amount": 11438730756,
+            "num_winners": 12,
+            "prize_per_game": 953227563,
+            "winning_criteria": "당첨번호 6개 숫자일치"
+        },
+        {
+            "rank": 2,
+            "total_prize_amount": 1906455132,
+            "num_winners": 36,
+            "prize_per_game": 52957087,
+            "winning_criteria": "당첨번호 5개 숫자일치+보너스 숫자일치"
+        },
+        {
+            "rank": 3,
+            "total_prize_amount": 1906455368,
+            "num_winners": 1318,
+            "prize_per_game": 1446476,
+            "winning_criteria": "당첨번호 5개 숫자일치"
+        },
+        {
+            "rank": 4,
+            "total_prize_amount": 3170150000,
+            "num_winners": 63403,
+            "prize_per_game": 50000,
+            "winning_criteria": "당첨번호 4개 숫자일치"
+        },
+        {
+            "rank": 5,
+            "total_prize_amount": 5207770000,
+            "num_winners": 1041554,
+            "prize_per_game": 5000,
+            "winning_criteria": "당첨번호 3개 숫자일치"
+        }
+    ],
+    "note": "1등 자동7 수동5",
+    "misc_info": {
+        "payment_deadline": "지급개시일로부터 1년 (휴일인 경우 익영업일)",
+        "total_sales_amount": 47259122000
+    }
+}

@@ -1,0 +1,55 @@
+{
+    "draw_no": 144,
+    "draw_date": "2005-09-03",
+    "winning_numbers": [
+        4,
+        15,
+        17,
+        26,
+        36,
+        37
+    ],
+    "bonus_number": 43,
+    "rank_details": [
+        {
+            "rank": 1,
+            "total_prize_amount": 11219523304,
+            "num_winners": 8,
+            "prize_per_game": 1402440413,
+            "winning_criteria": "당첨번호 6개 숫자일치"
+        },
+        {
+            "rank": 2,
+            "total_prize_amount": 1869920568,
+            "num_winners": 38,
+            "prize_per_game": 49208436,
+            "winning_criteria": "당첨번호 5개 숫자일치+보너스 숫자일치"
+        },
+        {
+            "rank": 3,
+            "total_prize_amount": 1869921942,
+            "num_winners": 1498,
+            "prize_per_game": 1248279,
+            "winning_criteria": "당첨번호 5개 숫자일치"
+        },
+        {
+            "rank": 4,
+            "total_prize_amount": 3739909296,
+            "num_winners": 74181,
+            "prize_per_game": 50416,
+            "winning_criteria": "당첨번호 4개 숫자일치"
+        },
+        {
+            "rank": 5,
+            "total_prize_amount": 5902055000,
+            "num_winners": 1180411,
+            "prize_per_game": 5000,
+            "winning_criteria": "당첨번호 3개 숫자일치"
+        }
+    ],
+    "note": "",
+    "misc_info": {
+        "payment_deadline": "지급개시일로부터 1년 (휴일인 경우 익영업일)",
+        "total_sales_amount": 49202521000
+    }
+}

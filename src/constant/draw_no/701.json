@@ -1,0 +1,55 @@
+{
+    "draw_no": 701,
+    "draw_date": "2016-05-07",
+    "winning_numbers": [
+        3,
+        10,
+        14,
+        16,
+        36,
+        38
+    ],
+    "bonus_number": 35,
+    "rank_details": [
+        {
+            "rank": 1,
+            "total_prize_amount": 15831831750,
+            "num_winners": 10,
+            "prize_per_game": 1583183175,
+            "winning_criteria": "당첨번호 6개 숫자일치"
+        },
+        {
+            "rank": 2,
+            "total_prize_amount": 2638638640,
+            "num_winners": 40,
+            "prize_per_game": 65965966,
+            "winning_criteria": "당첨번호 5개 숫자일치+보너스 숫자일치"
+        },
+        {
+            "rank": 3,
+            "total_prize_amount": 2638639500,
+            "num_winners": 1659,
+            "prize_per_game": 1590500,
+            "winning_criteria": "당첨번호 5개 숫자일치"
+        },
+        {
+            "rank": 4,
+            "total_prize_amount": 4095850000,
+            "num_winners": 81917,
+            "prize_per_game": 50000,
+            "winning_criteria": "당첨번호 4개 숫자일치"
+        },
+        {
+            "rank": 5,
+            "total_prize_amount": 7022110000,
+            "num_winners": 1404422,
+            "prize_per_game": 5000,
+            "winning_criteria": "당첨번호 3개 숫자일치"
+        }
+    ],
+    "note": "1등 자동8 수동1 반자동1",
+    "misc_info": {
+        "payment_deadline": "지급개시일로부터 1년 (휴일인 경우 익영업일)",
+        "total_sales_amount": 64454138000
+    }
+}

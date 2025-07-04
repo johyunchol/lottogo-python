@@ -1,0 +1,55 @@
+{
+    "draw_no": 885,
+    "draw_date": "2019-11-16",
+    "winning_numbers": [
+        1,
+        3,
+        24,
+        27,
+        39,
+        45
+    ],
+    "bonus_number": 31,
+    "rank_details": [
+        {
+            "rank": 1,
+            "total_prize_amount": 20069823384,
+            "num_winners": 13,
+            "prize_per_game": 1543832568,
+            "winning_criteria": "당첨번호 6개 숫자일치"
+        },
+        {
+            "rank": 2,
+            "total_prize_amount": 3344970608,
+            "num_winners": 56,
+            "prize_per_game": 59731618,
+            "winning_criteria": "당첨번호 5개 숫자일치+보너스 숫자일치"
+        },
+        {
+            "rank": 3,
+            "total_prize_amount": 3344972623,
+            "num_winners": 2279,
+            "prize_per_game": 1467737,
+            "winning_criteria": "당첨번호 5개 숫자일치"
+        },
+        {
+            "rank": 4,
+            "total_prize_amount": 5591600000,
+            "num_winners": 111832,
+            "prize_per_game": 50000,
+            "winning_criteria": "당첨번호 4개 숫자일치"
+        },
+        {
+            "rank": 5,
+            "total_prize_amount": 9346795000,
+            "num_winners": 1869359,
+            "prize_per_game": 5000,
+            "winning_criteria": "당첨번호 3개 숫자일치"
+        }
+    ],
+    "note": "1등 자동11 수동2",
+    "misc_info": {
+        "payment_deadline": "지급개시일로부터 1년 (휴일인 경우 익영업일)",
+        "total_sales_amount": 83396319000
+    }
+}

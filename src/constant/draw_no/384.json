@@ -1,0 +1,55 @@
+{
+    "draw_no": 384,
+    "draw_date": "2010-04-10",
+    "winning_numbers": [
+        11,
+        22,
+        24,
+        32,
+        36,
+        38
+    ],
+    "bonus_number": 7,
+    "rank_details": [
+        {
+            "rank": 1,
+            "total_prize_amount": 10976202600,
+            "num_winners": 3,
+            "prize_per_game": 3658734200,
+            "winning_criteria": "당첨번호 6개 숫자일치"
+        },
+        {
+            "rank": 2,
+            "total_prize_amount": 1829367110,
+            "num_winners": 41,
+            "prize_per_game": 44618710,
+            "winning_criteria": "당첨번호 5개 숫자일치+보너스 숫자일치"
+        },
+        {
+            "rank": 3,
+            "total_prize_amount": 1829367180,
+            "num_winners": 1215,
+            "prize_per_game": 1505652,
+            "winning_criteria": "당첨번호 5개 숫자일치"
+        },
+        {
+            "rank": 4,
+            "total_prize_amount": 3658777430,
+            "num_winners": 62090,
+            "prize_per_game": 58927,
+            "winning_criteria": "당첨번호 4개 숫자일치"
+        },
+        {
+            "rank": 5,
+            "total_prize_amount": 5150800000,
+            "num_winners": 1030160,
+            "prize_per_game": 5000,
+            "winning_criteria": "당첨번호 3개 숫자일치"
+        }
+    ],
+    "note": "1등 자동3",
+    "misc_info": {
+        "payment_deadline": "지급개시일로부터 1년 (휴일인 경우 익영업일)",
+        "total_sales_amount": 46888942000
+    }
+}

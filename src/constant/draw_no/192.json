@@ -1,0 +1,55 @@
+{
+    "draw_no": 192,
+    "draw_date": "2006-08-05",
+    "winning_numbers": [
+        4,
+        8,
+        11,
+        18,
+        37,
+        45
+    ],
+    "bonus_number": 33,
+    "rank_details": [
+        {
+            "rank": 1,
+            "total_prize_amount": 9781393500,
+            "num_winners": 4,
+            "prize_per_game": 2445348375,
+            "winning_criteria": "당첨번호 6개 숫자일치"
+        },
+        {
+            "rank": 2,
+            "total_prize_amount": 1630232262,
+            "num_winners": 38,
+            "prize_per_game": 42900849,
+            "winning_criteria": "당첨번호 5개 숫자일치+보너스 숫자일치"
+        },
+        {
+            "rank": 3,
+            "total_prize_amount": 1630232442,
+            "num_winners": 1098,
+            "prize_per_game": 1484729,
+            "winning_criteria": "당첨번호 5개 숫자일치"
+        },
+        {
+            "rank": 4,
+            "total_prize_amount": 3260470722,
+            "num_winners": 55766,
+            "prize_per_game": 58467,
+            "winning_criteria": "당첨번호 4개 숫자일치"
+        },
+        {
+            "rank": 5,
+            "total_prize_amount": 4715210000,
+            "num_winners": 943042,
+            "prize_per_game": 5000,
+            "winning_criteria": "당첨번호 3개 숫자일치"
+        }
+    ],
+    "note": "",
+    "misc_info": {
+        "payment_deadline": "지급개시일로부터 1년 (휴일인 경우 익영업일)",
+        "total_sales_amount": 42035065000
+    }
+}

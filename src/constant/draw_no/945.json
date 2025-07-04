@@ -1,0 +1,55 @@
+{
+    "draw_no": 945,
+    "draw_date": "2021-01-09",
+    "winning_numbers": [
+        9,
+        10,
+        15,
+        30,
+        33,
+        37
+    ],
+    "bonus_number": 26,
+    "rank_details": [
+        {
+            "rank": 1,
+            "total_prize_amount": 22952208383,
+            "num_winners": 13,
+            "prize_per_game": 1765554491,
+            "winning_criteria": "당첨번호 6개 숫자일치"
+        },
+        {
+            "rank": 2,
+            "total_prize_amount": 3825368104,
+            "num_winners": 71,
+            "prize_per_game": 53878424,
+            "winning_criteria": "당첨번호 5개 숫자일치+보너스 숫자일치"
+        },
+        {
+            "rank": 3,
+            "total_prize_amount": 3825369570,
+            "num_winners": 2490,
+            "prize_per_game": 1536293,
+            "winning_criteria": "당첨번호 5개 숫자일치"
+        },
+        {
+            "rank": 4,
+            "total_prize_amount": 6211200000,
+            "num_winners": 124224,
+            "prize_per_game": 50000,
+            "winning_criteria": "당첨번호 4개 숫자일치"
+        },
+        {
+            "rank": 5,
+            "total_prize_amount": 10604410000,
+            "num_winners": 2120882,
+            "prize_per_game": 5000,
+            "winning_criteria": "당첨번호 3개 숫자일치"
+        }
+    ],
+    "note": "1등 자동10 수동3",
+    "misc_info": {
+        "payment_deadline": "지급개시일로부터 1년 (휴일인 경우 익영업일)",
+        "total_sales_amount": 94837109000
+    }
+}

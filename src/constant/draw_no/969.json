@@ -1,0 +1,55 @@
+{
+    "draw_no": 969,
+    "draw_date": "2021-06-26",
+    "winning_numbers": [
+        3,
+        9,
+        10,
+        29,
+        40,
+        45
+    ],
+    "bonus_number": 7,
+    "rank_details": [
+        {
+            "rank": 1,
+            "total_prize_amount": 22988557880,
+            "num_winners": 20,
+            "prize_per_game": 1149427894,
+            "winning_criteria": "당첨번호 6개 숫자일치"
+        },
+        {
+            "rank": 2,
+            "total_prize_amount": 3831426368,
+            "num_winners": 56,
+            "prize_per_game": 68418328,
+            "winning_criteria": "당첨번호 5개 숫자일치+보너스 숫자일치"
+        },
+        {
+            "rank": 3,
+            "total_prize_amount": 3831428381,
+            "num_winners": 2633,
+            "prize_per_game": 1455157,
+            "winning_criteria": "당첨번호 5개 숫자일치"
+        },
+        {
+            "rank": 4,
+            "total_prize_amount": 6653950000,
+            "num_winners": 133079,
+            "prize_per_game": 50000,
+            "winning_criteria": "당첨번호 4개 숫자일치"
+        },
+        {
+            "rank": 5,
+            "total_prize_amount": 11059015000,
+            "num_winners": 2211803,
+            "prize_per_game": 5000,
+            "winning_criteria": "당첨번호 3개 숫자일치"
+        }
+    ],
+    "note": "1등 자동13 수동6 반자동1",
+    "misc_info": {
+        "payment_deadline": "지급개시일로부터 1년 (휴일인 경우 익영업일)",
+        "total_sales_amount": 96728751000
+    }
+}

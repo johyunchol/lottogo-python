@@ -1,0 +1,55 @@
+{
+    "draw_no": 793,
+    "draw_date": "2018-02-10",
+    "winning_numbers": [
+        10,
+        15,
+        21,
+        35,
+        38,
+        43
+    ],
+    "bonus_number": 31,
+    "rank_details": [
+        {
+            "rank": 1,
+            "total_prize_amount": 18750733875,
+            "num_winners": 5,
+            "prize_per_game": 3750146775,
+            "winning_criteria": "당첨번호 6개 숫자일치"
+        },
+        {
+            "rank": 2,
+            "total_prize_amount": 3125122354,
+            "num_winners": 61,
+            "prize_per_game": 51231514,
+            "winning_criteria": "당첨번호 5개 숫자일치+보너스 숫자일치"
+        },
+        {
+            "rank": 3,
+            "total_prize_amount": 3125123982,
+            "num_winners": 2043,
+            "prize_per_game": 1529674,
+            "winning_criteria": "당첨번호 5개 숫자일치"
+        },
+        {
+            "rank": 4,
+            "total_prize_amount": 4910800000,
+            "num_winners": 98216,
+            "prize_per_game": 50000,
+            "winning_criteria": "당첨번호 4개 숫자일치"
+        },
+        {
+            "rank": 5,
+            "total_prize_amount": 8176960000,
+            "num_winners": 1635392,
+            "prize_per_game": 5000,
+            "winning_criteria": "당첨번호 3개 숫자일치"
+        }
+    ],
+    "note": "1등 자동5",
+    "misc_info": {
+        "payment_deadline": "지급개시일로부터 1년 (휴일인 경우 익영업일)",
+        "total_sales_amount": 76177477000
+    }
+}

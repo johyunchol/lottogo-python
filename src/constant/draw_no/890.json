@@ -1,0 +1,55 @@
+{
+    "draw_no": 890,
+    "draw_date": "2019-12-21",
+    "winning_numbers": [
+        1,
+        4,
+        14,
+        18,
+        29,
+        37
+    ],
+    "bonus_number": 6,
+    "rank_details": [
+        {
+            "rank": 1,
+            "total_prize_amount": 21019375503,
+            "num_winners": 9,
+            "prize_per_game": 2335486167,
+            "winning_criteria": "당첨번호 6개 숫자일치"
+        },
+        {
+            "rank": 2,
+            "total_prize_amount": 3503229290,
+            "num_winners": 58,
+            "prize_per_game": 60400505,
+            "winning_criteria": "당첨번호 5개 숫자일치+보너스 숫자일치"
+        },
+        {
+            "rank": 3,
+            "total_prize_amount": 3503231424,
+            "num_winners": 2376,
+            "prize_per_game": 1474424,
+            "winning_criteria": "당첨번호 5개 숫자일치"
+        },
+        {
+            "rank": 4,
+            "total_prize_amount": 5742950000,
+            "num_winners": 114859,
+            "prize_per_game": 50000,
+            "winning_criteria": "당첨번호 4개 숫자일치"
+        },
+        {
+            "rank": 5,
+            "total_prize_amount": 9577965000,
+            "num_winners": 1915593,
+            "prize_per_game": 5000,
+            "winning_criteria": "당첨번호 3개 숫자일치"
+        }
+    ],
+    "note": "1등 자동9",
+    "misc_info": {
+        "payment_deadline": "지급개시일로부터 1년 (휴일인 경우 익영업일)",
+        "total_sales_amount": 86693498000
+    }
+}

@@ -1,0 +1,55 @@
+{
+    "draw_no": 850,
+    "draw_date": "2019-03-16",
+    "winning_numbers": [
+        16,
+        20,
+        24,
+        28,
+        36,
+        39
+    ],
+    "bonus_number": 5,
+    "rank_details": [
+        {
+            "rank": 1,
+            "total_prize_amount": 20265527250,
+            "num_winners": 6,
+            "prize_per_game": 3377587875,
+            "winning_criteria": "당첨번호 6개 숫자일치"
+        },
+        {
+            "rank": 2,
+            "total_prize_amount": 3377587895,
+            "num_winners": 55,
+            "prize_per_game": 61410689,
+            "winning_criteria": "당첨번호 5개 숫자일치+보너스 숫자일치"
+        },
+        {
+            "rank": 3,
+            "total_prize_amount": 3377588662,
+            "num_winners": 2023,
+            "prize_per_game": 1669594,
+            "winning_criteria": "당첨번호 5개 숫자일치"
+        },
+        {
+            "rank": 4,
+            "total_prize_amount": 5079550000,
+            "num_winners": 101591,
+            "prize_per_game": 50000,
+            "winning_criteria": "당첨번호 4개 숫자일치"
+        },
+        {
+            "rank": 5,
+            "total_prize_amount": 8636835000,
+            "num_winners": 1727367,
+            "prize_per_game": 5000,
+            "winning_criteria": "당첨번호 3개 숫자일치"
+        }
+    ],
+    "note": "1등 자동5 수동1",
+    "misc_info": {
+        "payment_deadline": "지급개시일로부터 1년 (휴일인 경우 익영업일)",
+        "total_sales_amount": 81474176000
+    }
+}

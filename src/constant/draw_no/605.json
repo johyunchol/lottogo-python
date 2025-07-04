@@ -1,0 +1,55 @@
+{
+    "draw_no": 605,
+    "draw_date": "2014-07-05",
+    "winning_numbers": [
+        1,
+        2,
+        7,
+        9,
+        10,
+        38
+    ],
+    "bonus_number": 42,
+    "rank_details": [
+        {
+            "rank": 1,
+            "total_prize_amount": 12548090250,
+            "num_winners": 9,
+            "prize_per_game": 1394232250,
+            "winning_criteria": "당첨번호 6개 숫자일치"
+        },
+        {
+            "rank": 2,
+            "total_prize_amount": 2091348400,
+            "num_winners": 40,
+            "prize_per_game": 52283710,
+            "winning_criteria": "당첨번호 5개 숫자일치+보너스 숫자일치"
+        },
+        {
+            "rank": 3,
+            "total_prize_amount": 2091349386,
+            "num_winners": 2286,
+            "prize_per_game": 914851,
+            "winning_criteria": "당첨번호 5개 숫자일치"
+        },
+        {
+            "rank": 4,
+            "total_prize_amount": 4649000000,
+            "num_winners": 92980,
+            "prize_per_game": 50000,
+            "winning_criteria": "당첨번호 4개 숫자일치"
+        },
+        {
+            "rank": 5,
+            "total_prize_amount": 6931675000,
+            "num_winners": 1386335,
+            "prize_per_game": 5000,
+            "winning_criteria": "당첨번호 3개 숫자일치"
+        }
+    ],
+    "note": "1등 자동6 수동3",
+    "misc_info": {
+        "payment_deadline": "지급개시일로부터 1년 (휴일인 경우 익영업일)",
+        "total_sales_amount": 56622924000
+    }
+}

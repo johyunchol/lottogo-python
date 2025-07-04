@@ -1,0 +1,55 @@
+{
+    "draw_no": 874,
+    "draw_date": "2019-08-31",
+    "winning_numbers": [
+        1,
+        15,
+        19,
+        23,
+        28,
+        42
+    ],
+    "bonus_number": 32,
+    "rank_details": [
+        {
+            "rank": 1,
+            "total_prize_amount": 20108230506,
+            "num_winners": 18,
+            "prize_per_game": 1117123917,
+            "winning_criteria": "당첨번호 6개 숫자일치"
+        },
+        {
+            "rank": 2,
+            "total_prize_amount": 3351371772,
+            "num_winners": 68,
+            "prize_per_game": 49284879,
+            "winning_criteria": "당첨번호 5개 숫자일치+보너스 숫자일치"
+        },
+        {
+            "rank": 3,
+            "total_prize_amount": 3351373760,
+            "num_winners": 2240,
+            "prize_per_game": 1496149,
+            "winning_criteria": "당첨번호 5개 숫자일치"
+        },
+        {
+            "rank": 4,
+            "total_prize_amount": 5532750000,
+            "num_winners": 110655,
+            "prize_per_game": 50000,
+            "winning_criteria": "당첨번호 4개 숫자일치"
+        },
+        {
+            "rank": 5,
+            "total_prize_amount": 9151345000,
+            "num_winners": 1830269,
+            "prize_per_game": 5000,
+            "winning_criteria": "당첨번호 3개 숫자일치"
+        }
+    ],
+    "note": "1등 자동10 수동8",
+    "misc_info": {
+        "payment_deadline": "지급개시일로부터 1년 (휴일인 경우 익영업일)",
+        "total_sales_amount": 82990138000
+    }
+}

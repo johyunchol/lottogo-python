@@ -1,0 +1,55 @@
+{
+    "draw_no": 929,
+    "draw_date": "2020-09-19",
+    "winning_numbers": [
+        7,
+        9,
+        12,
+        15,
+        19,
+        23
+    ],
+    "bonus_number": 4,
+    "rank_details": [
+        {
+            "rank": 1,
+            "total_prize_amount": 20928562512,
+            "num_winners": 16,
+            "prize_per_game": 1308035157,
+            "winning_criteria": "당첨번호 6개 숫자일치"
+        },
+        {
+            "rank": 2,
+            "total_prize_amount": 3488093791,
+            "num_winners": 91,
+            "prize_per_game": 38330701,
+            "winning_criteria": "당첨번호 5개 숫자일치+보너스 숫자일치"
+        },
+        {
+            "rank": 3,
+            "total_prize_amount": 3488095516,
+            "num_winners": 3028,
+            "prize_per_game": 1151947,
+            "winning_criteria": "당첨번호 5개 숫자일치"
+        },
+        {
+            "rank": 4,
+            "total_prize_amount": 7044000000,
+            "num_winners": 140880,
+            "prize_per_game": 50000,
+            "winning_criteria": "당첨번호 4개 숫자일치"
+        },
+        {
+            "rank": 5,
+            "total_prize_amount": 11223560000,
+            "num_winners": 2244712,
+            "prize_per_game": 5000,
+            "winning_criteria": "당첨번호 3개 숫자일치"
+        }
+    ],
+    "note": "1등 자동9 수동6 반자동1",
+    "misc_info": {
+        "payment_deadline": "지급개시일로부터 1년 (휴일인 경우 익영업일)",
+        "total_sales_amount": 92344620000
+    }
+}

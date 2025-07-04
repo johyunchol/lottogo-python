@@ -1,0 +1,55 @@
+{
+    "draw_no": 438,
+    "draw_date": "2011-04-23",
+    "winning_numbers": [
+        6,
+        12,
+        20,
+        26,
+        29,
+        38
+    ],
+    "bonus_number": 45,
+    "rank_details": [
+        {
+            "rank": 1,
+            "total_prize_amount": 12394279503,
+            "num_winners": 9,
+            "prize_per_game": 1377142167,
+            "winning_criteria": "당첨번호 6개 숫자일치"
+        },
+        {
+            "rank": 2,
+            "total_prize_amount": 2065713250,
+            "num_winners": 41,
+            "prize_per_game": 50383250,
+            "winning_criteria": "당첨번호 5개 숫자일치+보너스 숫자일치"
+        },
+        {
+            "rank": 3,
+            "total_prize_amount": 2065713656,
+            "num_winners": 1303,
+            "prize_per_game": 1585352,
+            "winning_criteria": "당첨번호 5개 숫자일치"
+        },
+        {
+            "rank": 4,
+            "total_prize_amount": 3250500000,
+            "num_winners": 65010,
+            "prize_per_game": 50000,
+            "winning_criteria": "당첨번호 4개 숫자일치"
+        },
+        {
+            "rank": 5,
+            "total_prize_amount": 5408815000,
+            "num_winners": 1081763,
+            "prize_per_game": 5000,
+            "winning_criteria": "당첨번호 3개 숫자일치"
+        }
+    ],
+    "note": "1등 자동8 수동1",
+    "misc_info": {
+        "payment_deadline": "지급개시일로부터 1년 (휴일인 경우 익영업일)",
+        "total_sales_amount": 50370042000
+    }
+}

@@ -1,0 +1,55 @@
+{
+    "draw_no": 946,
+    "draw_date": "2021-01-16",
+    "winning_numbers": [
+        9,
+        18,
+        19,
+        30,
+        34,
+        40
+    ],
+    "bonus_number": 20,
+    "rank_details": [
+        {
+            "rank": 1,
+            "total_prize_amount": 23734218002,
+            "num_winners": 11,
+            "prize_per_game": 2157656182,
+            "winning_criteria": "당첨번호 6개 숫자일치"
+        },
+        {
+            "rank": 2,
+            "total_prize_amount": 3955703017,
+            "num_winners": 71,
+            "prize_per_game": 55714127,
+            "winning_criteria": "당첨번호 5개 숫자일치+보너스 숫자일치"
+        },
+        {
+            "rank": 3,
+            "total_prize_amount": 3955703079,
+            "num_winners": 2949,
+            "prize_per_game": 1341371,
+            "winning_criteria": "당첨번호 5개 숫자일치"
+        },
+        {
+            "rank": 4,
+            "total_prize_amount": 6921650000,
+            "num_winners": 138433,
+            "prize_per_game": 50000,
+            "winning_criteria": "당첨번호 4개 숫자일치"
+        },
+        {
+            "rank": 5,
+            "total_prize_amount": 11122815000,
+            "num_winners": 2224563,
+            "prize_per_game": 5000,
+            "winning_criteria": "당첨번호 3개 숫자일치"
+        }
+    ],
+    "note": "1등 자동6 수동5",
+    "misc_info": {
+        "payment_deadline": "지급개시일로부터 1년 (휴일인 경우 익영업일)",
+        "total_sales_amount": 99380178000
+    }
+}

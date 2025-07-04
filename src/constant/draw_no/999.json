@@ -1,0 +1,55 @@
+{
+    "draw_no": 999,
+    "draw_date": "2022-01-22",
+    "winning_numbers": [
+        1,
+        3,
+        9,
+        14,
+        18,
+        28
+    ],
+    "bonus_number": 34,
+    "rank_details": [
+        {
+            "rank": 1,
+            "total_prize_amount": 24212396640,
+            "num_winners": 16,
+            "prize_per_game": 1513274790,
+            "winning_criteria": "당첨번호 6개 숫자일치"
+        },
+        {
+            "rank": 2,
+            "total_prize_amount": 4035399481,
+            "num_winners": 67,
+            "prize_per_game": 60229843,
+            "winning_criteria": "당첨번호 5개 숫자일치+보너스 숫자일치"
+        },
+        {
+            "rank": 3,
+            "total_prize_amount": 4035400398,
+            "num_winners": 2943,
+            "prize_per_game": 1371186,
+            "winning_criteria": "당첨번호 5개 숫자일치"
+        },
+        {
+            "rank": 4,
+            "total_prize_amount": 7160850000,
+            "num_winners": 143217,
+            "prize_per_game": 50000,
+            "winning_criteria": "당첨번호 4개 숫자일치"
+        },
+        {
+            "rank": 5,
+            "total_prize_amount": 11846630000,
+            "num_winners": 2369326,
+            "prize_per_game": 5000,
+            "winning_criteria": "당첨번호 3개 숫자일치"
+        }
+    ],
+    "note": "1등 자동11 수동5",
+    "misc_info": {
+        "payment_deadline": "지급개시일로부터 1년 (휴일인 경우 익영업일)",
+        "total_sales_amount": 102581351000
+    }
+}

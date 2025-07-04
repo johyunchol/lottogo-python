@@ -1,0 +1,55 @@
+{
+    "draw_no": 730,
+    "draw_date": "2016-11-26",
+    "winning_numbers": [
+        4,
+        10,
+        14,
+        15,
+        18,
+        22
+    ],
+    "bonus_number": 39,
+    "rank_details": [
+        {
+            "rank": 1,
+            "total_prize_amount": 16139056880,
+            "num_winners": 8,
+            "prize_per_game": 2017382110,
+            "winning_criteria": "당첨번호 6개 숫자일치"
+        },
+        {
+            "rank": 2,
+            "total_prize_amount": 2689842825,
+            "num_winners": 45,
+            "prize_per_game": 59774285,
+            "winning_criteria": "당첨번호 5개 숫자일치+보너스 숫자일치"
+        },
+        {
+            "rank": 3,
+            "total_prize_amount": 2689843259,
+            "num_winners": 1741,
+            "prize_per_game": 1544999,
+            "winning_criteria": "당첨번호 5개 숫자일치"
+        },
+        {
+            "rank": 4,
+            "total_prize_amount": 4439550000,
+            "num_winners": 88791,
+            "prize_per_game": 50000,
+            "winning_criteria": "당첨번호 4개 숫자일치"
+        },
+        {
+            "rank": 5,
+            "total_prize_amount": 7508760000,
+            "num_winners": 1501752,
+            "prize_per_game": 5000,
+            "winning_criteria": "당첨번호 3개 숫자일치"
+        }
+    ],
+    "note": "1등 자동6 수동2",
+    "misc_info": {
+        "payment_deadline": "지급개시일로부터 1년 (휴일인 경우 익영업일)",
+        "total_sales_amount": 66934105000
+    }
+}

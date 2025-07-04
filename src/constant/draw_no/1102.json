@@ -1,0 +1,55 @@
+{
+    "draw_no": 1102,
+    "draw_date": "2024-01-13",
+    "winning_numbers": [
+        13,
+        14,
+        22,
+        26,
+        37,
+        38
+    ],
+    "bonus_number": 20,
+    "rank_details": [
+        {
+            "rank": 1,
+            "total_prize_amount": 27671828260,
+            "num_winners": 20,
+            "prize_per_game": 1383591413,
+            "winning_criteria": "당첨번호 6개 숫자일치"
+        },
+        {
+            "rank": 2,
+            "total_prize_amount": 4611971385,
+            "num_winners": 63,
+            "prize_per_game": 73205895,
+            "winning_criteria": "당첨번호 5개 숫자일치+보너스 숫자일치"
+        },
+        {
+            "rank": 3,
+            "total_prize_amount": 4611973158,
+            "num_winners": 3042,
+            "prize_per_game": 1516099,
+            "winning_criteria": "당첨번호 5개 숫자일치"
+        },
+        {
+            "rank": 4,
+            "total_prize_amount": 7385250000,
+            "num_winners": 147705,
+            "prize_per_game": 50000,
+            "winning_criteria": "당첨번호 4개 숫자일치"
+        },
+        {
+            "rank": 5,
+            "total_prize_amount": 12308030000,
+            "num_winners": 2461606,
+            "prize_per_game": 5000,
+            "winning_criteria": "당첨번호 3개 숫자일치"
+        }
+    ],
+    "note": "1등 자동16 수동4",
+    "misc_info": {
+        "payment_deadline": "지급개시일로부터 1년 (휴일인 경우 익영업일)",
+        "total_sales_amount": 113178102000
+    }
+}

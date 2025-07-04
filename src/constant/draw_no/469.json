@@ -1,0 +1,55 @@
+{
+    "draw_no": 469,
+    "draw_date": "2011-11-26",
+    "winning_numbers": [
+        4,
+        21,
+        22,
+        34,
+        37,
+        38
+    ],
+    "bonus_number": 33,
+    "rank_details": [
+        {
+            "rank": 1,
+            "total_prize_amount": 13320525000,
+            "num_winners": 4,
+            "prize_per_game": 3330131250,
+            "winning_criteria": "당첨번호 6개 숫자일치"
+        },
+        {
+            "rank": 2,
+            "total_prize_amount": 2220087507,
+            "num_winners": 33,
+            "prize_per_game": 67275379,
+            "winning_criteria": "당첨번호 5개 숫자일치+보너스 숫자일치"
+        },
+        {
+            "rank": 3,
+            "total_prize_amount": 2220088763,
+            "num_winners": 1277,
+            "prize_per_game": 1738519,
+            "winning_criteria": "당첨번호 5개 숫자일치"
+        },
+        {
+            "rank": 4,
+            "total_prize_amount": 3294000000,
+            "num_winners": 65880,
+            "prize_per_game": 50000,
+            "winning_criteria": "당첨번호 4개 숫자일치"
+        },
+        {
+            "rank": 5,
+            "total_prize_amount": 5627770000,
+            "num_winners": 1125554,
+            "prize_per_game": 5000,
+            "winning_criteria": "당첨번호 3개 숫자일치"
+        }
+    ],
+    "note": "1등 자동2 수동2",
+    "misc_info": {
+        "payment_deadline": "지급개시일로부터 1년 (휴일인 경우 익영업일)",
+        "total_sales_amount": 53364940000
+    }
+}

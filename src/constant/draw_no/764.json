@@ -1,0 +1,55 @@
+{
+    "draw_no": 764,
+    "draw_date": "2017-07-22",
+    "winning_numbers": [
+        7,
+        22,
+        24,
+        31,
+        34,
+        36
+    ],
+    "bonus_number": 15,
+    "rank_details": [
+        {
+            "rank": 1,
+            "total_prize_amount": 17219828255,
+            "num_winners": 7,
+            "prize_per_game": 2459975465,
+            "winning_criteria": "당첨번호 6개 숫자일치"
+        },
+        {
+            "rank": 2,
+            "total_prize_amount": 2869971412,
+            "num_winners": 44,
+            "prize_per_game": 65226623,
+            "winning_criteria": "당첨번호 5개 숫자일치+보너스 숫자일치"
+        },
+        {
+            "rank": 3,
+            "total_prize_amount": 2869971624,
+            "num_winners": 1908,
+            "prize_per_game": 1504178,
+            "winning_criteria": "당첨번호 5개 숫자일치"
+        },
+        {
+            "rank": 4,
+            "total_prize_amount": 4544800000,
+            "num_winners": 90896,
+            "prize_per_game": 50000,
+            "winning_criteria": "당첨번호 4개 숫자일치"
+        },
+        {
+            "rank": 5,
+            "total_prize_amount": 7654895000,
+            "num_winners": 1530979,
+            "prize_per_game": 5000,
+            "winning_criteria": "당첨번호 3개 숫자일치"
+        }
+    ],
+    "note": "1등 자동6 수동1",
+    "misc_info": {
+        "payment_deadline": "지급개시일로부터 1년 (휴일인 경우 익영업일)",
+        "total_sales_amount": 70318932000
+    }
+}

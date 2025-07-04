@@ -1,0 +1,55 @@
+{
+    "draw_no": 906,
+    "draw_date": "2020-04-11",
+    "winning_numbers": [
+        2,
+        5,
+        14,
+        28,
+        31,
+        32
+    ],
+    "bonus_number": 20,
+    "rank_details": [
+        {
+            "rank": 1,
+            "total_prize_amount": 22253465250,
+            "num_winners": 9,
+            "prize_per_game": 2472607250,
+            "winning_criteria": "당첨번호 6개 숫자일치"
+        },
+        {
+            "rank": 2,
+            "total_prize_amount": 3708910926,
+            "num_winners": 63,
+            "prize_per_game": 58871602,
+            "winning_criteria": "당첨번호 5개 숫자일치+보너스 숫자일치"
+        },
+        {
+            "rank": 3,
+            "total_prize_amount": 3708911138,
+            "num_winners": 2369,
+            "prize_per_game": 1565602,
+            "winning_criteria": "당첨번호 5개 숫자일치"
+        },
+        {
+            "rank": 4,
+            "total_prize_amount": 5858550000,
+            "num_winners": 117171,
+            "prize_per_game": 50000,
+            "winning_criteria": "당첨번호 4개 숫자일치"
+        },
+        {
+            "rank": 5,
+            "total_prize_amount": 9944300000,
+            "num_winners": 1988860,
+            "prize_per_game": 5000,
+            "winning_criteria": "당첨번호 3개 숫자일치"
+        }
+    ],
+    "note": "1등 자동9",
+    "misc_info": {
+        "payment_deadline": "지급개시일로부터 1년 (휴일인 경우 익영업일)",
+        "total_sales_amount": 90948274000
+    }
+}

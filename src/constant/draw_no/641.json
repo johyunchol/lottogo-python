@@ -1,0 +1,55 @@
+{
+    "draw_no": 641,
+    "draw_date": "2015-03-14",
+    "winning_numbers": [
+        11,
+        18,
+        21,
+        36,
+        37,
+        43
+    ],
+    "bonus_number": 12,
+    "rank_details": [
+        {
+            "rank": 1,
+            "total_prize_amount": 15920596504,
+            "num_winners": 8,
+            "prize_per_game": 1990074563,
+            "winning_criteria": "당첨번호 6개 숫자일치"
+        },
+        {
+            "rank": 2,
+            "total_prize_amount": 2653432750,
+            "num_winners": 50,
+            "prize_per_game": 53068655,
+            "winning_criteria": "당첨번호 5개 숫자일치+보너스 숫자일치"
+        },
+        {
+            "rank": 3,
+            "total_prize_amount": 2653434025,
+            "num_winners": 1565,
+            "prize_per_game": 1695485,
+            "winning_criteria": "당첨번호 5개 숫자일치"
+        },
+        {
+            "rank": 4,
+            "total_prize_amount": 3957250000,
+            "num_winners": 79145,
+            "prize_per_game": 50000,
+            "winning_criteria": "당첨번호 4개 숫자일치"
+        },
+        {
+            "rank": 5,
+            "total_prize_amount": 6701855000,
+            "num_winners": 1340371,
+            "prize_per_game": 5000,
+            "winning_criteria": "당첨번호 3개 숫자일치"
+        }
+    ],
+    "note": "1등 자동5 수동3",
+    "misc_info": {
+        "payment_deadline": "지급개시일로부터 1년 (휴일인 경우 익영업일)",
+        "total_sales_amount": 63773134000
+    }
+}

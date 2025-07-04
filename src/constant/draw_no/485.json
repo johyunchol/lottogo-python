@@ -1,0 +1,55 @@
+{
+    "draw_no": 485,
+    "draw_date": "2012-03-17",
+    "winning_numbers": [
+        17,
+        22,
+        26,
+        27,
+        36,
+        39
+    ],
+    "bonus_number": 20,
+    "rank_details": [
+        {
+            "rank": 1,
+            "total_prize_amount": 13513274253,
+            "num_winners": 9,
+            "prize_per_game": 1501474917,
+            "winning_criteria": "당첨번호 6개 숫자일치"
+        },
+        {
+            "rank": 2,
+            "total_prize_amount": 2252212380,
+            "num_winners": 33,
+            "prize_per_game": 68248860,
+            "winning_criteria": "당첨번호 5개 숫자일치+보너스 숫자일치"
+        },
+        {
+            "rank": 3,
+            "total_prize_amount": 2252213754,
+            "num_winners": 1406,
+            "prize_per_game": 1601859,
+            "winning_criteria": "당첨번호 5개 숫자일치"
+        },
+        {
+            "rank": 4,
+            "total_prize_amount": 3639250000,
+            "num_winners": 72785,
+            "prize_per_game": 50000,
+            "winning_criteria": "당첨번호 4개 숫자일치"
+        },
+        {
+            "rank": 5,
+            "total_prize_amount": 6189490000,
+            "num_winners": 1237898,
+            "prize_per_game": 5000,
+            "winning_criteria": "당첨번호 3개 숫자일치"
+        }
+    ],
+    "note": "1등 자동7 수동2",
+    "misc_info": {
+        "payment_deadline": "지급개시일로부터 1년 (휴일인 경우 익영업일)",
+        "total_sales_amount": 55692878000
+    }
+}

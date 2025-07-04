@@ -1,0 +1,55 @@
+{
+    "draw_no": 622,
+    "draw_date": "2014-11-01",
+    "winning_numbers": [
+        9,
+        15,
+        16,
+        21,
+        28,
+        34
+    ],
+    "bonus_number": 24,
+    "rank_details": [
+        {
+            "rank": 1,
+            "total_prize_amount": 14675384628,
+            "num_winners": 9,
+            "prize_per_game": 1630598292,
+            "winning_criteria": "당첨번호 6개 숫자일치"
+        },
+        {
+            "rank": 2,
+            "total_prize_amount": 2445897440,
+            "num_winners": 34,
+            "prize_per_game": 71938160,
+            "winning_criteria": "당첨번호 5개 숫자일치+보너스 숫자일치"
+        },
+        {
+            "rank": 3,
+            "total_prize_amount": 2445897888,
+            "num_winners": 1629,
+            "prize_per_game": 1501472,
+            "winning_criteria": "당첨번호 5개 숫자일치"
+        },
+        {
+            "rank": 4,
+            "total_prize_amount": 3881300000,
+            "num_winners": 77626,
+            "prize_per_game": 50000,
+            "winning_criteria": "당첨번호 4개 숫자일치"
+        },
+        {
+            "rank": 5,
+            "total_prize_amount": 6352185000,
+            "num_winners": 1270437,
+            "prize_per_game": 5000,
+            "winning_criteria": "당첨번호 3개 숫자일치"
+        }
+    ],
+    "note": "1등 자동8 수동1",
+    "misc_info": {
+        "payment_deadline": "지급개시일로부터 1년 (휴일인 경우 익영업일)",
+        "total_sales_amount": 59601329000
+    }
+}
