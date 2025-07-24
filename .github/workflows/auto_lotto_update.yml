@@ -14,6 +14,9 @@ jobs:
   update-lotto-draw:
     runs-on: ubuntu-latest   # Ubuntu 최신 환경에서 실행
     timeout-minutes: 10      # 외부 사이트가 느릴 때 러너를 무한정 점유하지 않도록 상한을 둔다
+    env:
+      SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+      SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
 
     steps:
       # 1. 저장소 코드를 체크아웃(가져오기)
