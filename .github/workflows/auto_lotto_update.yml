@@ -13,6 +13,9 @@ permissions:
 jobs:
   update-lotto-draw:
     runs-on: ubuntu-latest   # Ubuntu 최신 환경에서 실행
+    env:
+      SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+      SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
 
     steps:
       # 1. 저장소 코드를 체크아웃(가져오기)
