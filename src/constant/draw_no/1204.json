@@ -1,0 +1,55 @@
+{
+    "draw_no": 1204,
+    "draw_date": "2025-12-27",
+    "winning_numbers": [
+        8,
+        16,
+        28,
+        30,
+        31,
+        44
+    ],
+    "bonus_number": 27,
+    "rank_details": [
+        {
+            "rank": 1,
+            "total_prize_amount": 29898138384,
+            "num_winners": 18,
+            "prize_per_game": 1661007688,
+            "winning_criteria": "당첨번호 6개 숫자일치"
+        },
+        {
+            "rank": 2,
+            "total_prize_amount": 4983023125,
+            "num_winners": 95,
+            "prize_per_game": 52452875,
+            "winning_criteria": "당첨번호 5개 숫자일치+보너스 숫자일치"
+        },
+        {
+            "rank": 3,
+            "total_prize_amount": 4983025322,
+            "num_winners": 3361,
+            "prize_per_game": 1482602,
+            "winning_criteria": "당첨번호 5개 숫자일치"
+        },
+        {
+            "rank": 4,
+            "total_prize_amount": 8245950000,
+            "num_winners": 164919,
+            "prize_per_game": 50000,
+            "winning_criteria": "당첨번호 4개 숫자일치"
+        },
+        {
+            "rank": 5,
+            "total_prize_amount": 13769175000,
+            "num_winners": 2753835,
+            "prize_per_game": 5000,
+            "winning_criteria": "당첨번호 3개 숫자일치"
+        }
+    ],
+    "note": "1등 자동14 수동3 반자동1",
+    "misc_info": {
+        "payment_deadline": "지급개시일로부터 1년 (휴일인 경우 익영업일)",
+        "total_sales_amount": 123758619000
+    }
+}
