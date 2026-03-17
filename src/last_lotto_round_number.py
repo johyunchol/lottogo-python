@@ -1,22 +1,22 @@
 import requests
-from bs4 import BeautifulSoup
 import os
 import json
 
+
 def get_latest_lotto_round_number() -> int:
     """
-    동행복권 홈페이지에서 최신 로또 회차 번호를 추출하여 반환합니다.
+    동행복권 API에서 최신 로또 회차 번호를 추출하여 반환합니다.
+    (사이트 개편 후 JSON API 방식으로 변경)
     """
-    url = "https://dhlottery.co.kr/common.do?method=main"
+    url = "https://dhlottery.co.kr/selectMainInfo.do"
     try:
         response = requests.get(url)
-        response.encoding = 'euc-kr'
-        soup = BeautifulSoup(response.text, 'html.parser')
-        lotto_drw_no_tag = soup.find('strong', id='lottoDrwNo')
-        if lotto_drw_no_tag:
-            return int(lotto_drw_no_tag.text.strip())
+        data = response.json()
+        lt645_list = data["data"]["result"]["pstLtEpstInfo"]["lt645"]
+        if lt645_list:
+            return max(int(item["ltEpsd"]) for item in lt645_list)
         else:
-            print("오류: 메인 페이지에서 'lottoDrwNo' 태그를 찾을 수 없습니다.")
+            print("오류: API 응답에서 lt645 데이터를 찾을 수 없습니다.")
             return -1
     except requests.exceptions.RequestException as e:
         print(f"오류: 웹 페이지 요청 중 네트워크 문제 발생: {e}")
@@ -25,13 +25,14 @@ def get_latest_lotto_round_number() -> int:
         print(f"오류: 최신 회차 번호 추출 중 예기치 않은 오류 발생: {e}")
         return -1
 
+
 if __name__ == "__main__":
     latest_round_no = get_latest_lotto_round_number()
     print(f"{latest_round_no}")
 
     # 파일 저장 디렉토리 설정
     save_dir = 'src/constant/round_no'
-    os.makedirs(save_dir, exist_ok=True)  # 폴더 없으면 생성
+    os.makedirs(save_dir, exist_ok=True)
 
     file_path = os.path.join(save_dir, f'latest_round_no.json')
     try:
