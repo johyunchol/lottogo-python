@@ -1,0 +1,55 @@
+{
+    "draw_no": 1219,
+    "draw_date": "2026-04-11",
+    "winning_numbers": [
+        1,
+        2,
+        15,
+        28,
+        39,
+        45
+    ],
+    "bonus_number": 31,
+    "rank_details": [
+        {
+            "rank": 1,
+            "total_prize_amount": 30098794128,
+            "num_winners": 12,
+            "prize_per_game": 2508232844,
+            "winning_criteria": "당첨번호 6개 숫자일치"
+        },
+        {
+            "rank": 2,
+            "total_prize_amount": 5016465762,
+            "num_winners": 77,
+            "prize_per_game": 65148906,
+            "winning_criteria": "당첨번호 5개 숫자일치+보너스 숫자일치"
+        },
+        {
+            "rank": 3,
+            "total_prize_amount": 5016466908,
+            "num_winners": 3079,
+            "prize_per_game": 1629252,
+            "winning_criteria": "당첨번호 5개 숫자일치"
+        },
+        {
+            "rank": 4,
+            "total_prize_amount": 7536650000,
+            "num_winners": 150733,
+            "prize_per_game": 50000,
+            "winning_criteria": "당첨번호 4개 숫자일치"
+        },
+        {
+            "rank": 5,
+            "total_prize_amount": 12804525000,
+            "num_winners": 2560905,
+            "prize_per_game": 5000,
+            "winning_criteria": "당첨번호 3개 숫자일치"
+        }
+    ],
+    "note": "",
+    "misc_info": {
+        "payment_deadline": "정보 없음",
+        "total_sales_amount": 60472901798
+    }
+}
