@@ -13,43 +13,43 @@
     "rank_details": [
         {
             "rank": 1,
-            "total_prize_amount": 0,
-            "num_winners": 0,
-            "prize_per_game": 0,
+            "total_prize_amount": 27536950514,
+            "num_winners": 23,
+            "prize_per_game": 1197258718,
             "winning_criteria": "당첨번호 6개 숫자일치"
         },
         {
             "rank": 2,
-            "total_prize_amount": 0,
-            "num_winners": 0,
-            "prize_per_game": 0,
+            "total_prize_amount": 4589491788,
+            "num_winners": 84,
+            "prize_per_game": 54636807,
             "winning_criteria": "당첨번호 5개 숫자일치+보너스 숫자일치"
         },
         {
             "rank": 3,
-            "total_prize_amount": 0,
-            "num_winners": 0,
-            "prize_per_game": 0,
+            "total_prize_amount": 4589494500,
+            "num_winners": 3235,
+            "prize_per_game": 1418700,
             "winning_criteria": "당첨번호 5개 숫자일치"
         },
         {
             "rank": 4,
-            "total_prize_amount": 0,
-            "num_winners": 0,
-            "prize_per_game": 0,
+            "total_prize_amount": 7807050000,
+            "num_winners": 156141,
+            "prize_per_game": 50000,
             "winning_criteria": "당첨번호 4개 숫자일치"
         },
         {
             "rank": 5,
-            "total_prize_amount": 0,
-            "num_winners": 0,
-            "prize_per_game": 0,
+            "total_prize_amount": 12745915000,
+            "num_winners": 2549183,
+            "prize_per_game": 5000,
             "winning_criteria": "당첨번호 3개 숫자일치"
         }
     ],
-    "note": "",
+    "note": "1등 자동10 수동12 반자동1",
     "misc_info": {
-        "payment_deadline": "정보 없음",
-        "total_sales_amount": 0
+        "payment_deadline": "지급개시일로부터 1년 (휴일인 경우 익영업일)",
+        "total_sales_amount": 57268901802
     }
 }

@@ -28,6 +28,12 @@ HEADERS = {
     ),
 }
 
+# 지급기한은 회차별로 다르지 않은 고정 안내 문구다(기존 1204개 회차가 모두 이 값).
+PAYMENT_DEADLINE = "지급개시일로부터 1년 (휴일인 경우 익영업일)"
+
+# 1등 당첨 구매방식 집계. API의 winType1/2/3에 대응한다.
+WIN_TYPE_LABELS = ((1, "자동"), (2, "수동"), (3, "반자동"))
+
 REQUEST_TIMEOUT = 10  # 초. 동행복권이 느릴 때 무한정 매달리지 않도록 반드시 지정한다.
 
 # 아직 추첨/게시되지 않은 회차를 요청했을 때 쓰는 종료 코드.
@@ -128,6 +134,39 @@ def fetch_draw_info(session: requests.Session, drw_no: int) -> dict:
     )
 
 
+def build_note(item: dict) -> str:
+    """
+    1등 당첨자의 구매방식 집계를 구버전과 같은 문구로 만든다.
+    예) winType1=8, winType2=3, winType3=1 -> "1등 자동8 수동3 반자동1"
+    1등 당첨자가 없으면 빈 문자열을 반환한다.
+    """
+    parts = [
+        f"{label}{item.get(f'winType{idx}', 0)}"
+        for idx, label in WIN_TYPE_LABELS
+        if item.get(f'winType{idx}', 0)
+    ]
+    return f"1등 {' '.join(parts)}" if parts else ""
+
+
+def ensure_tally_complete(item: dict, drw_no: int) -> None:
+    """
+    추첨번호는 나왔지만 당첨자/판매금액 집계가 아직 끝나지 않은 상태를 걸러낸다.
+
+    이 구간에 받은 데이터를 저장해 버리면 상금이 전부 0인 파일이 만들어지고,
+    파일이 존재한다는 이유로 다시는 갱신되지 않아 영구히 0으로 굳는다.
+    (실제로 1216~1218, 1226, 1230, 1235~1236, 1238회가 이렇게 손상됐다.)
+
+    1등 당첨자 수는 0이 정상인 회차가 존재하므로(1, 4, 5, 7~9, 13, 18, 24, 41, 71회)
+    판별 기준으로 쓸 수 없다. 5등 당첨자 수와 총판매금액은 정상 회차에서 0이 될 수 없다.
+    """
+    if not item.get("rnk5WnNope") or not item.get("rlvtEpsdSumNtslAmt"):
+        raise DrawNotPublished(
+            f"{drw_no}회차는 당첨 집계가 아직 반영되지 않았습니다. "
+            f"(5등 당첨자수={item.get('rnk5WnNope')}, "
+            f"총판매금액={item.get('rlvtEpsdSumNtslAmt')})"
+        )
+
+
 def build_draw_data(item: dict, drw_no: int) -> dict:
     """API 응답 항목을 저장 형식으로 변환합니다."""
     rank_details = []
@@ -149,9 +188,9 @@ def build_draw_data(item: dict, drw_no: int) -> dict:
         ],
         "bonus_number": item["bnsWnNo"],
         "rank_details": rank_details,
-        "note": "",
+        "note": build_note(item),
         "misc_info": {
-            "payment_deadline": "정보 없음",
+            "payment_deadline": PAYMENT_DEADLINE,
             "total_sales_amount": item.get("rlvtEpsdSumNtslAmt", 0),
         },
     }
@@ -189,6 +228,7 @@ def parse_single_lotto_draw_to_json(drw_no: int, session: requests.Session = Non
 
     session = session or build_session()
     item = fetch_draw_info(session, drw_no)
+    ensure_tally_complete(item, drw_no)
     current_draw_data = build_draw_data(item, drw_no)
     validate_draw_data(current_draw_data, drw_no)
 

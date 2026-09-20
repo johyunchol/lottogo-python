@@ -47,9 +47,9 @@
             "winning_criteria": "당첨번호 3개 숫자일치"
         }
     ],
-    "note": "",
+    "note": "1등 자동15 수동13 반자동3",
     "misc_info": {
-        "payment_deadline": "정보 없음",
+        "payment_deadline": "지급개시일로부터 1년 (휴일인 경우 익영업일)",
         "total_sales_amount": 58079891072
     }
 }
