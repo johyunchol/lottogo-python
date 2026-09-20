@@ -13,6 +13,7 @@ permissions:
 jobs:
   update-lotto-draw:
     runs-on: ubuntu-latest   # Ubuntu 최신 환경에서 실행
+    timeout-minutes: 10      # 외부 사이트가 느릴 때 러너를 무한정 점유하지 않도록 상한을 둔다
 
     steps:
       # 1. 저장소 코드를 체크아웃(가져오기)
@@ -31,54 +32,75 @@ jobs:
           python -m pip install --upgrade pip
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
-      # 4. 최신 로또 회차 번호를 추출하여 JSON 파일로 저장
+      # 4. 최신 로또 회차 번호를 계산하여 JSON 파일로 저장
+      #    (추첨 일정 기반 계산이라 네트워크 호출이 없다. 실패하면 즉시 워크플로우 중단)
       - name: Run last_lotto_round_number.py
         run: |
           python src/last_lotto_round_number.py
 
-      # 5. 실제로 파일이 생성됐는지 확인 (디버깅용)
-      - name: List draw_no directory after round number script
-        run: |
-          ls -al src/constant/draw_no || true
-
-      # 6. 필수 파일이 없으면 워크플로우 중단
+      # 5. 필수 파일이 없으면 워크플로우 중단
       - name: Check if latest_round_no.json exists
         run: |
           if [ ! -f "src/constant/round_no/latest_round_no.json" ]; then
-            echo "ERROR: latest_round_no.json not found!"
+            echo "::error::latest_round_no.json not found!"
             exit 1
           fi
+          cat src/constant/round_no/latest_round_no.json
 
-      # 7. jq로 JSON에서 최신 회차 번호 추출, 환경변수로 저장
+      # 6. jq로 JSON에서 최신 회차 번호 추출 + 유효성 검사
+      #    회차가 양의 정수가 아니면 여기서 끊어 잘못된 파일명(-1.json 등)이 만들어지는 걸 막는다
       - name: Get latest round number from JSON
-        id: get_round
         run: |
-          LATEST_ROUND=$(jq '.latest_round_no' src/constant/round_no/latest_round_no.json)
+          LATEST_ROUND=$(jq -r '.latest_round_no' src/constant/round_no/latest_round_no.json)
+          if ! echo "$LATEST_ROUND" | grep -Eq '^[1-9][0-9]*$'; then
+            echo "::error::비정상 회차 번호입니다: '$LATEST_ROUND'"
+            exit 1
+          fi
           echo "LATEST_ROUND=$LATEST_ROUND" >> $GITHUB_ENV
           echo "Latest round number: $LATEST_ROUND"
 
-      # 8. 해당 회차의 JSON 파일이 이미 존재하는지 확인
+      # 7. 해당 회차의 JSON 파일이 이미 존재하는지 확인
       - name: Check if draw JSON exists
         id: check_draw
         run: |
-          if [ -f "src/constant/draw_no/${{ env.LATEST_ROUND }}.json" ]; then
+          if [ -f "src/constant/draw_no/${LATEST_ROUND}.json" ]; then
             echo "exists=true" >> $GITHUB_OUTPUT
           else
             echo "exists=false" >> $GITHUB_OUTPUT
           fi
 
-      # 9. 파일이 없으면 파싱 스크립트 실행하여 JSON 생성
+      # 8. 파일이 없으면 파싱 스크립트 실행하여 JSON 생성
+      #    종료코드 0=생성 성공, 75=아직 미게시(정상 스킵), 그 외=실패(워크플로우 중단)
       - name: Generate draw JSON if missing
+        id: generate
         if: steps.check_draw.outputs.exists == 'false'
         run: |
-          python src/lotto_number_parser.py ${{ env.LATEST_ROUND }}
+          set +e
+          python src/lotto_number_parser.py "$LATEST_ROUND"
+          code=$?
+          set -e
+          if [ "$code" -eq 0 ]; then
+            echo "created=true" >> $GITHUB_OUTPUT
+          elif [ "$code" -eq 75 ]; then
+            echo "created=false" >> $GITHUB_OUTPUT
+            echo "::notice::${LATEST_ROUND}회차가 아직 게시되지 않았습니다. 다음 실행에서 다시 시도합니다."
+          else
+            echo "::error::${LATEST_ROUND}회차 파싱 실패 (exit ${code})"
+            exit "$code"
+          fi
 
-      # 10. 새 파일이 생겼을 때만 git add/commit/push
+      # 9. 실제로 새 파일이 생겼을 때만 git add/commit/push
       - name: Git add, commit, and push (if new file)
-        if: steps.check_draw.outputs.exists == 'false'
+        if: steps.generate.outputs.created == 'true'
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add .
-          git commit -m "Add lotto draw ${{ env.LATEST_ROUND }}.json (auto-update)"
+          git add "src/constant/draw_no/${LATEST_ROUND}.json" src/constant/round_no/latest_round_no.json
+          if git diff --cached --quiet; then
+            echo "::notice::커밋할 변경사항이 없습니다."
+            exit 0
+          fi
+          git commit -m "Add lotto draw ${LATEST_ROUND}.json (auto-update)"
+          # 5분 간격 실행이 겹쳤을 때 non-fast-forward로 실패하지 않도록 rebase 후 push
+          git pull --rebase --autostash origin main
           git push
