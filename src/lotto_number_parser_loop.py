@@ -13,14 +13,14 @@ REQUEST_INTERVAL = 0.3  # 초. 전 회차 순회 시 동행복권에 과부하�
 
 
 def main() -> int:
+    session = build_session()
     try:
-        latest_round = get_latest_lotto_round_number()
+        latest_round = get_latest_lotto_round_number(session)
     except Exception as e:
         print(f"오류: 최신 회차 번호 계산 실패 - {e}", file=sys.stderr)
         return 1
 
     print(f"1부터 {latest_round}회차까지 파싱을 시작합니다.")
-    session = build_session()
     skipped, failed = [], []
 
     for drw_no in range(1, latest_round + 1):

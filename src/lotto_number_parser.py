@@ -2,7 +2,7 @@ import argparse
 import json
 import os
 import sys
-from datetime import datetime
+from datetime import datetime, timedelta, timezone
 
 import requests
 from requests.adapters import HTTPAdapter
@@ -33,6 +33,16 @@ PAYMENT_DEADLINE = "지급개시일로부터 1년 (휴일인 경우 익영업일
 
 # 1등 당첨 구매방식 집계. API의 winType1/2/3에 대응한다.
 WIN_TYPE_LABELS = ((1, "자동"), (2, "수동"), (3, "반자동"))
+
+KST = timezone(timedelta(hours=9))
+
+# 추첨 방송 예정 시각(KST). 편성 변경으로 실제 방송이 늦어질 수 있으므로 기준점으로만 쓴다.
+DRAW_AIR_TIME = timedelta(hours=20, minutes=45)
+
+# 추첨일로부터 이 시간이 지나도 집계가 0이면 단순 지연이 아니라 이상으로 본다.
+# 방송이 몇 시간 늦어지는 경우(예: 2026-09-26 아시안게임 중계로 22:30 이후 방송)를
+# 넉넉히 흡수하면서, 며칠씩 방치되는 상황은 놓치지 않는 값이다.
+TALLY_GRACE = timedelta(hours=24)
 
 REQUEST_TIMEOUT = 10  # 초. 동행복권이 느릴 때 무한정 매달리지 않도록 반드시 지정한다.
 
@@ -81,7 +91,7 @@ def parse_date(ymd: str) -> str:
     return datetime.strptime(ymd, "%Y%m%d").strftime("%Y-%m-%d")
 
 
-def _fetch_round_list(session: requests.Session, drw_no: int) -> list:
+def fetch_round_list(session: requests.Session, drw_no: int) -> list:
     """요청 회차를 중심으로 한 회차 목록을 반환합니다. 범위를 벗어나면 빈 목록이 온다."""
     url = (
         f"https://www.dhlottery.co.kr/lt645/selectPstLt645InfoNew.do"
@@ -89,6 +99,13 @@ def _fetch_round_list(session: requests.Session, drw_no: int) -> list:
     )
     data = get_json(session, url)
     return data.get("data", {}).get("list", [])
+
+
+def round_exists(session: requests.Session, drw_no: int) -> bool:
+    """해당 회차가 동행복권에 게시되어 있는지 확인합니다."""
+    if drw_no < 1:
+        return False
+    return any(int(i["ltEpsd"]) == drw_no for i in fetch_round_list(session, drw_no))
 
 
 def fetch_draw_info(session: requests.Session, drw_no: int) -> dict:
@@ -103,7 +120,7 @@ def fetch_draw_info(session: requests.Session, drw_no: int) -> dict:
     이전 구현은 회차를 못 찾으면 '최신 회차'로 폴백했는데, 그러면 다른 회차의
     당첨번호가 요청 회차 번호로 저장되어 데이터가 조용히 오염된다.
     """
-    lt645_list = _fetch_round_list(session, drw_no)
+    lt645_list = fetch_round_list(session, drw_no)
 
     for item in lt645_list:
         if int(item["ltEpsd"]) == drw_no:
@@ -122,7 +139,7 @@ def fetch_draw_info(session: requests.Session, drw_no: int) -> dict:
     # 목록이 비어 있으면 '미게시 회차'와 'API 이상' 둘 다 가능하다.
     # 직전 회차를 한 번 더 조회해 API 자체가 살아있는지 확인하여 구분한다.
     if drw_no > 1:
-        probe = _fetch_round_list(session, drw_no - 1)
+        probe = fetch_round_list(session, drw_no - 1)
         if any(int(i["ltEpsd"]) == drw_no - 1 for i in probe):
             raise DrawNotPublished(
                 f"{drw_no}회차는 아직 게시되지 않았습니다. (직전 {drw_no - 1}회차는 정상 조회됨)"
@@ -159,12 +176,36 @@ def ensure_tally_complete(item: dict, drw_no: int) -> None:
     1등 당첨자 수는 0이 정상인 회차가 존재하므로(1, 4, 5, 7~9, 13, 18, 24, 41, 71회)
     판별 기준으로 쓸 수 없다. 5등 당첨자 수와 총판매금액은 정상 회차에서 0이 될 수 없다.
     """
-    if not item.get("rnk5WnNope") or not item.get("rlvtEpsdSumNtslAmt"):
-        raise DrawNotPublished(
-            f"{drw_no}회차는 당첨 집계가 아직 반영되지 않았습니다. "
-            f"(5등 당첨자수={item.get('rnk5WnNope')}, "
-            f"총판매금액={item.get('rlvtEpsdSumNtslAmt')})"
+    if item.get("rnk5WnNope") and item.get("rlvtEpsdSumNtslAmt"):
+        return
+
+    detail = (
+        f"5등 당첨자수={item.get('rnk5WnNope')}, "
+        f"총판매금액={item.get('rlvtEpsdSumNtslAmt')}"
+    )
+
+    # 추첨일로부터 얼마나 지났는지로 '단순 지연'과 '이상'을 가른다.
+    # 지연이면 조용히 스킵하고 다음 실행에서 다시 받으면 되지만,
+    # 하루가 넘도록 집계가 0이면 사람이 알아야 한다.
+    try:
+        aired_at = datetime.strptime(item["ltRflYmd"], "%Y%m%d").replace(tzinfo=KST) + DRAW_AIR_TIME
+    except Exception as e:
+        # 추첨일을 읽을 수 없으면 얼마나 지연됐는지 판단할 수 없다.
+        # 조용히 스킵하면 영구히 묻히므로 실패로 올린다.
+        raise ValueError(
+            f"{drw_no}회차의 추첨일(ltRflYmd={item.get('ltRflYmd')!r})을 해석할 수 없습니다: {e} ({detail})"
         )
+
+    elapsed = datetime.now(KST) - aired_at
+    if elapsed > TALLY_GRACE:
+        raise ValueError(
+            f"{drw_no}회차는 추첨일로부터 {elapsed.total_seconds() / 3600:.1f}시간이 지났는데도 "
+            f"집계가 반영되지 않았습니다. ({detail})"
+        )
+
+    raise DrawNotPublished(
+        f"{drw_no}회차는 당첨 집계가 아직 반영되지 않았습니다. ({detail})"
+    )
 
 
 def build_draw_data(item: dict, drw_no: int) -> dict:

@@ -32,8 +32,10 @@ jobs:
           python -m pip install --upgrade pip
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
-      # 4. 최신 로또 회차 번호를 계산하여 JSON 파일로 저장
-      #    (추첨 일정 기반 계산이라 네트워크 호출이 없다. 실패하면 즉시 워크플로우 중단)
+      # 4. 최신 로또 회차 번호를 확정하여 JSON 파일로 저장
+      #    추첨 일정으로 후보를 계산한 뒤 동행복권 API로 실제 게시 여부를 확인한다.
+      #    방송이 늦어지면(예: 아시안게임 중계로 밀린 1243회) 직전 회차를 최신으로 본다.
+      #    확정에 실패하면 즉시 워크플로우 중단
       - name: Run last_lotto_round_number.py
         run: |
           python src/last_lotto_round_number.py
