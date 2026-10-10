@@ -1,0 +1,55 @@
+{
+    "draw_no": 1245,
+    "draw_date": "2026-10-10",
+    "winning_numbers": [
+        4,
+        5,
+        25,
+        28,
+        32,
+        42
+    ],
+    "bonus_number": 12,
+    "rank_details": [
+        {
+            "rank": 1,
+            "total_prize_amount": 30065157750,
+            "num_winners": 10,
+            "prize_per_game": 3006515775,
+            "winning_criteria": "당첨번호 6개 숫자일치"
+        },
+        {
+            "rank": 2,
+            "total_prize_amount": 5010859672,
+            "num_winners": 91,
+            "prize_per_game": 55064392,
+            "winning_criteria": "당첨번호 5개 숫자일치+보너스 숫자일치"
+        },
+        {
+            "rank": 3,
+            "total_prize_amount": 5010862230,
+            "num_winners": 3102,
+            "prize_per_game": 1615365,
+            "winning_criteria": "당첨번호 5개 숫자일치"
+        },
+        {
+            "rank": 4,
+            "total_prize_amount": 8158850000,
+            "num_winners": 163177,
+            "prize_per_game": 50000,
+            "winning_criteria": "당첨번호 4개 숫자일치"
+        },
+        {
+            "rank": 5,
+            "total_prize_amount": 13933640000,
+            "num_winners": 2786728,
+            "prize_per_game": 5000,
+            "winning_criteria": "당첨번호 3개 숫자일치"
+        }
+    ],
+    "note": "1등 자동10",
+    "misc_info": {
+        "payment_deadline": "지급개시일로부터 1년 (휴일인 경우 익영업일)",
+        "total_sales_amount": 62179369652
+    }
+}
